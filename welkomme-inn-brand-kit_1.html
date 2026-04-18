@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WELKOMME-INN — Brand Kit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --white: #ffffff;
+  --off-white: #f8f9fa;
+  --black: #111111;
+  --gray-200: #e8e8e8;
+  --gray-400: #a0a0a0;
+  --gray-500: #6b6b6b;
+  --gray-600: #4a4a4a;
+  --blue: #0066ff;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { -webkit-font-smoothing: antialiased; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: var(--black);
+  background: #f5f5f4;
+  line-height: 1.6;
+}
+
+.kit {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 60px 40px 80px;
+}
+
+/* Header */
+.kit-header {
+  text-align: center;
+  padding: 64px 0 56px;
+  border-bottom: 1px solid var(--gray-200);
+  margin-bottom: 64px;
+}
+
+.kit-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.kit-logo-icon {
+  width: 44px;
+  height: 44px;
+  background: var(--black);
+  color: var(--white);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.kit-logo-text {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.kit-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--gray-500);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-top: 8px;
+}
+
+.kit-date {
+  font-size: 13px;
+  color: var(--gray-400);
+  margin-top: 8px;
+}
+
+/* Sections */
+.kit-section {
+  margin-bottom: 64px;
+}
+
+.kit-section-label {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--blue);
+  margin-bottom: 12px;
+}
+
+.kit-section-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.kit-section-desc {
+  font-size: 15px;
+  color: var(--gray-500);
+  margin-bottom: 36px;
+  max-width: 560px;
+  line-height: 1.7;
+}
+
+/* Color Palette */
+.color-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.color-card {
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.color-card.primary { grid-column: 1 / -1; }
+
+.color-swatch {
+  height: 100px;
+  position: relative;
+}
+
+.color-card.primary .color-swatch { height: 140px; }
+
+.color-info {
+  padding: 20px 24px;
+}
+
+.color-name {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.color-role {
+  font-size: 13px;
+  color: var(--gray-500);
+  margin-bottom: 10px;
+}
+
+.color-codes {
+  display: flex;
+  gap: 16px;
+}
+
+.color-code {
+  font-size: 13px;
+  font-family: 'DM Sans', monospace;
+  color: var(--gray-600);
+  background: var(--off-white);
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
+/* Neutrals strip */
+.neutrals-strip {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.neutral-chip {
+  text-align: center;
+}
+
+.neutral-dot {
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 12px;
+  margin-bottom: 8px;
+  border: 1px solid var(--gray-200);
+}
+
+.neutral-label {
+  font-size: 11px;
+  color: var(--gray-500);
+  font-weight: 500;
+}
+
+.neutral-hex {
+  font-size: 10px;
+  color: var(--gray-400);
+  font-family: monospace;
+}
+
+/* Typography */
+.type-specimen {
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  border-radius: 16px;
+  padding: 40px;
+  margin-bottom: 16px;
+}
+
+.type-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 32px;
+  gap: 24px;
+}
+
+.type-font-name {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.type-font-meta {
+  font-size: 12px;
+  color: var(--gray-400);
+}
+
+.type-badge {
+  font-size: 11px;
+  font-weight: 500;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: var(--off-white);
+  color: var(--gray-600);
+  white-space: nowrap;
+}
+
+.type-display-sample {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1.15;
+  margin-bottom: 16px;
+}
+
+.type-body-sample {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.3;
+  margin-bottom: 16px;
+}
+
+.type-alphabet {
+  font-size: 15px;
+  color: var(--gray-400);
+  letter-spacing: 0.06em;
+  word-break: break-all;
+}
+
+/* Type scale */
+.type-scale {
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.type-scale-row {
+  display: flex;
+  align-items: baseline;
+  padding: 20px 32px;
+  border-bottom: 1px solid var(--gray-200);
+  gap: 24px;
+}
+
+.type-scale-row:last-child { border-bottom: none; }
+
+.type-scale-label {
+  width: 140px;
+  flex-shrink: 0;
+  font-size: 12px;
+  color: var(--gray-400);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.type-scale-spec {
+  width: 160px;
+  flex-shrink: 0;
+  font-size: 12px;
+  color: var(--gray-500);
+  font-family: monospace;
+}
+
+.type-scale-sample {
+  flex: 1;
+}
+
+/* Buttons */
+.btn-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.demo-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: default;
+}
+
+.demo-btn.primary {
+  padding: 12px 28px;
+  background: var(--black);
+  color: var(--white);
+  border-radius: 999px;
+  border: none;
+}
+
+.demo-btn.secondary {
+  padding: 14px 32px;
+  background: var(--white);
+  color: var(--black);
+  border-radius: 999px;
+  border: 1px solid var(--gray-200);
+}
+
+.demo-btn.hero {
+  padding: 16px 36px;
+  background: var(--white);
+  color: var(--black);
+  border-radius: 999px;
+  border: none;
+  font-size: 15px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.demo-btn.outline {
+  padding: 16px 36px;
+  background: transparent;
+  color: var(--black);
+  border-radius: 999px;
+  border: 1.5px solid var(--gray-300);
+  font-size: 15px;
+}
+
+.demo-btn.cta-dark {
+  padding: 14px 32px;
+  background: var(--black);
+  color: var(--white);
+  border-radius: 999px;
+  border: none;
+  font-size: 15px;
+}
+
+.btn-spec {
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  border-radius: 16px;
+  padding: 28px 32px;
+}
+
+.btn-spec-row {
+  display: flex;
+  gap: 32px;
+  font-size: 13px;
+  color: var(--gray-500);
+  flex-wrap: wrap;
+}
+
+.btn-spec-item strong {
+  color: var(--black);
+  font-weight: 600;
+}
+
+/* Spacing & Radius */
+.spec-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.spec-card {
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.spec-card h4 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.spec-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  font-size: 14px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.spec-row:last-child { border-bottom: none; }
+
+.spec-row .spec-label { color: var(--gray-500); }
+.spec-row .spec-val { font-family: monospace; font-size: 13px; color: var(--gray-600); }
+
+/* Radius demos */
+.radius-demos {
+  display: flex;
+  gap: 20px;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+
+.radius-demo {
+  text-align: center;
+}
+
+.radius-box {
+  width: 56px;
+  height: 56px;
+  background: var(--off-white);
+  border: 1.5px solid var(--gray-200);
+  margin-bottom: 8px;
+}
+
+.radius-demo span {
+  font-size: 11px;
+  color: var(--gray-400);
+}
+
+/* Logo usage */
+.logo-usage-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.logo-usage-card {
+  border-radius: 16px;
+  padding: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  border: 1px solid var(--gray-200);
+}
+
+.logo-usage-card.dark {
+  background: var(--black);
+  border-color: transparent;
+}
+
+.logo-usage-card.light {
+  background: var(--white);
+}
+
+.logo-usage-card.blue {
+  background: var(--blue);
+  border-color: transparent;
+}
+
+.logo-usage-card.gray {
+  background: var(--off-white);
+}
+
+.lu-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.lu-text {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* Voice section */
+.voice-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.voice-card {
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.voice-card h4 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.voice-card.do { border-left: 3px solid #22c55e; }
+.voice-card.dont { border-left: 3px solid #ef4444; }
+
+.voice-card p {
+  font-size: 14px;
+  color: var(--gray-500);
+  line-height: 1.6;
+}
+
+.voice-examples {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.voice-ex {
+  font-size: 14px;
+  padding: 8px 14px;
+  border-radius: 8px;
+  background: var(--off-white);
+  color: var(--gray-600);
+}
+
+/* Footer */
+.kit-footer {
+  text-align: center;
+  padding-top: 48px;
+  border-top: 1px solid var(--gray-200);
+  margin-top: 32px;
+}
+
+.kit-footer p {
+  font-size: 13px;
+  color: var(--gray-400);
+}
+
+@media (max-width: 768px) {
+  .kit { padding: 32px 20px 60px; }
+  .color-grid { grid-template-columns: 1fr; }
+  .color-card.primary { grid-column: auto; }
+  .spec-grid, .voice-grid, .logo-usage-grid { grid-template-columns: 1fr; }
+  .type-scale-row { flex-direction: column; gap: 8px; }
+  .type-scale-label, .type-scale-spec { width: auto; }
+  .neutrals-strip { grid-template-columns: repeat(4, 1fr); }
+  .type-display-sample { font-size: 32px; }
+  .type-body-sample { font-size: 24px; }
+}
+</style>
+</head>
+<body>
+
+<div class="kit">
+
+  <!-- Header -->
+  <div class="kit-header">
+    <div class="kit-logo">
+      <div class="kit-logo-icon">W</div>
+      <div class="kit-logo-text">WELKOMME-INN</div>
+    </div>
+    <div class="kit-title">Brand Identity Kit</div>
+    <div class="kit-date">April 2026 · Version 1.0</div>
+  </div>
+
+  <!-- ============================
+       1. LOGO
+       ============================ -->
+  <div class="kit-section">
+    <div class="kit-section-label">01 — Logo</div>
+    <div class="kit-section-title">Logo Mark &amp; Usage</div>
+    <div class="kit-section-desc">The WELKOMME-INN logo combines a rounded square icon with bold uppercase wordmark. The "W" icon can be used standalone for favicons and small contexts.</div>
+
+    <div class="logo-usage-grid">
+      <div class="logo-usage-card dark">
+        <div class="lu-icon" style="background:#fff;color:#111;">W</div>
+        <div class="lu-text" style="color:#fff;">WELKOMME-INN</div>
+      </div>
+      <div class="logo-usage-card light">
+        <div class="lu-icon" style="background:#111;color:#fff;">W</div>
+        <div class="lu-text" style="color:#111;">WELKOMME-INN</div>
+      </div>
+      <div class="logo-usage-card blue">
+        <div class="lu-icon" style="background:#fff;color:#0066ff;">W</div>
+        <div class="lu-text" style="color:#fff;">WELKOMME-INN</div>
+      </div>
+      <div class="logo-usage-card gray">
+        <div class="lu-icon" style="background:#111;color:#fff;">W</div>
+        <div class="lu-text" style="color:#111;">WELKOMME-INN</div>
+      </div>
+    </div>
+
+    <div class="btn-spec" style="margin-top:16px;">
+      <div class="btn-spec-row">
+        <div><strong>Wordmark font:</strong> DM Sans, 700 weight</div>
+        <div><strong>Letter-spacing:</strong> 0.04em</div>
+        <div><strong>Transform:</strong> uppercase</div>
+        <div><strong>Icon radius:</strong> 8px</div>
+        <div><strong>Icon size:</strong> 32×32px (header), 44×44px (display)</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================
+       2. COLOR PALETTE
+       ============================ -->
+  <div class="kit-section">
+    <div class="kit-section-label">02 — Color Palette</div>
+    <div class="kit-section-title">Primary &amp; Supporting Colors</div>
+    <div class="kit-section-desc">A minimal, high-contrast palette. Black dominates for trust and authority. Blue is the action accent. Photography provides warmth.</div>
+
+    <div class="color-grid">
+      <div class="color-card primary">
+        <div class="color-swatch" style="background:#111111;"></div>
+        <div class="color-info">
+          <div class="color-name">Primary Black</div>
+          <div class="color-role">Headings, buttons, logo, primary text</div>
+          <div class="color-codes"><span class="color-code">#111111</span><span class="color-code">rgb(17, 17, 17)</span></div>
+        </div>
+      </div>
+
+      <div class="color-card">
+        <div class="color-swatch" style="background:#0066ff;"></div>
+        <div class="color-info">
+          <div class="color-name">Action Blue</div>
+          <div class="color-role">Links, CTAs, service icons, contact section bg</div>
+          <div class="color-codes"><span class="color-code">#0066FF</span><span class="color-code">rgb(0, 102, 255)</span></div>
+        </div>
+      </div>
+
+      <div class="color-card">
+        <div class="color-swatch" style="background:#ffffff; border-bottom: 1px solid #e8e8e8;"></div>
+        <div class="color-info">
+          <div class="color-name">White</div>
+          <div class="color-role">Page background, cards, button fills</div>
+          <div class="color-codes"><span class="color-code">#FFFFFF</span><span class="color-code">rgb(255, 255, 255)</span></div>
+        </div>
+      </div>
+
+      <div class="color-card">
+        <div class="color-swatch" style="background:#f8f9fa; border-bottom: 1px solid #e8e8e8;"></div>
+        <div class="color-info">
+          <div class="color-name">Off-White</div>
+          <div class="color-role">Section backgrounds, pricing cards, alternating sections</div>
+          <div class="color-codes"><span class="color-code">#F8F9FA</span><span class="color-code">rgb(248, 249, 250)</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Neutral Scale -->
+    <div class="neutrals-strip">
+      <div class="neutral-chip"><div class="neutral-dot" style="background:#f5f5f5;"></div><div class="neutral-label">Gray 100</div><div class="neutral-hex">#F5F5F5</div></div>
+      <div class="neutral-chip"><div class="neutral-dot" style="background:#e8e8e8;"></div><div class="neutral-label">Gray 200</div><div class="neutral-hex">#E8E8E8</div></div>
+      <div class="neutral-chip"><div class="neutral-dot" style="background:#d1d1d1;"></div><div class="neutral-label">Gray 300</div><div class="neutral-hex">#D1D1D1</div></div>
+      <div class="neutral-chip"><div class="neutral-dot" style="background:#a0a0a0;"></div><div class="neutral-label">Gray 400</div><div class="neutral-hex">#A0A0A0</div></div>
+      <div class="neutral-chip"><div class="neutral-dot" style="background:#6b6b6b;"></div><div class="neutral-label">Gray 500</div><div class="neutral-hex">#6B6B6B</div></div>
+      <div class="neutral-chip"><div class="neutral-dot" style="background:#4a4a4a;"></div><div class="neutral-label">Gray 600</div><div class="neutral-hex">#4A4A4A</div></div>
+      <div class="neutral-chip"><div class="neutral-dot" style="background:#1a1a1a;"></div><div class="neutral-label">Dark</div><div class="neutral-hex">#1A1A1A</div></div>
+      <div class="neutral-chip"><div class="neutral-dot" style="background:#eef2ff;"></div><div class="neutral-label">Icon BG</div><div class="neutral-hex">#EEF2FF</div></div>
+    </div>
+  </div>
+
+  <!-- ============================
+       3. TYPOGRAPHY
+       ============================ -->
+  <div class="kit-section">
+    <div class="kit-section-label">03 — Typography</div>
+    <div class="kit-section-title">Font Families</div>
+    <div class="kit-section-desc">Two typefaces. Playfair Display for editorial headings — elegant and memorable. DM Sans for everything else — clean, modern, highly readable.</div>
+
+    <div class="type-specimen">
+      <div class="type-header">
+        <div>
+          <div class="type-font-name">Playfair Display</div>
+          <div class="type-font-meta">Google Fonts · Serif · Display font</div>
+        </div>
+        <span class="type-badge">Headings &amp; Titles</span>
+      </div>
+      <div class="type-display-sample">Property management that <em>actually works.</em></div>
+      <div class="type-alphabet">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z 0 1 2 3 4 5 6 7 8 9</div>
+    </div>
+
+    <div class="type-specimen">
+      <div class="type-header">
+        <div>
+          <div class="type-font-name">DM Sans</div>
+          <div class="type-font-meta">Google Fonts · Sans-serif · Body font</div>
+        </div>
+        <span class="type-badge">Body, Nav, Buttons, Labels</span>
+      </div>
+      <div class="type-body-sample">Run by Pedro Almeida — a small, dedicated team in Portimão.</div>
+      <div class="type-alphabet">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z 0 1 2 3 4 5 6 7 8 9</div>
+    </div>
+
+    <div class="kit-section-label" style="margin-top:40px;">Type Scale</div>
+    <div class="type-scale">
+      <div class="type-scale-row">
+        <div class="type-scale-label">Hero H1</div>
+        <div class="type-scale-spec">Playfair · 500 · 72px</div>
+        <div class="type-scale-sample" style="font-family:'Playfair Display',serif; font-size:32px; font-weight:500; line-height:1.1;">Property management</div>
+      </div>
+      <div class="type-scale-row">
+        <div class="type-scale-label">Section H2</div>
+        <div class="type-scale-spec">Playfair · 500 · 48px</div>
+        <div class="type-scale-sample" style="font-family:'Playfair Display',serif; font-size:26px; font-weight:500; line-height:1.15;">Everything your rental needs</div>
+      </div>
+      <div class="type-scale-row">
+        <div class="type-scale-label">Card H3</div>
+        <div class="type-scale-spec">Playfair · 500 · 22px</div>
+        <div class="type-scale-sample" style="font-family:'Playfair Display',serif; font-size:20px; font-weight:500;">Advertising &amp; Bookings</div>
+      </div>
+      <div class="type-scale-row">
+        <div class="type-scale-label">Body</div>
+        <div class="type-scale-spec">DM Sans · 400 · 17px</div>
+        <div class="type-scale-sample" style="font-size:16px; color:#6b6b6b;">We manage everything — from professional photography to SEF registration.</div>
+      </div>
+      <div class="type-scale-row">
+        <div class="type-scale-label">Small / Nav</div>
+        <div class="type-scale-spec">DM Sans · 400 · 15px</div>
+        <div class="type-scale-sample" style="font-size:14px; color:#6b6b6b;">Why Us · Services · How It Works · Pricing</div>
+      </div>
+      <div class="type-scale-row">
+        <div class="type-scale-label">Label</div>
+        <div class="type-scale-spec">DM Sans · 500 · 14px</div>
+        <div class="type-scale-sample" style="font-size:13px; font-weight:500; color:#6b6b6b; letter-spacing:0.02em;">What we manage</div>
+      </div>
+      <div class="type-scale-row">
+        <div class="type-scale-label">Caption / Meta</div>
+        <div class="type-scale-spec">DM Sans · 500 · 12px</div>
+        <div class="type-scale-sample" style="font-size:12px; font-weight:500; color:#a0a0a0; text-transform:uppercase; letter-spacing:0.06em;">PORTIMÃO CENTRE</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================
+       4. BUTTONS
+       ============================ -->
+  <div class="kit-section">
+    <div class="kit-section-label">04 — Buttons &amp; CTAs</div>
+    <div class="kit-section-title">Button Styles</div>
+    <div class="kit-section-desc">All buttons use pill shape (border-radius: 999px). Primary actions are dark-fill. Secondary actions are outlined or white-fill.</div>
+
+    <div class="btn-grid">
+      <div class="demo-btn primary">Free Assessment</div>
+      <div class="demo-btn secondary">Browse managed properties</div>
+      <div class="demo-btn hero">Get a Free Assessment</div>
+      <div class="demo-btn outline">See How It Works</div>
+      <div class="demo-btn cta-dark">Get a free property assessment</div>
+    </div>
+
+    <div class="btn-spec">
+      <div class="btn-spec-row">
+        <div><strong>Border radius:</strong> 999px (pill)</div>
+        <div><strong>Font weight:</strong> 500</div>
+        <div><strong>Font size:</strong> 14–15px</div>
+        <div><strong>Padding:</strong> 12–16px vertical, 28–36px horizontal</div>
+        <div><strong>Hover:</strong> translateY(-1px) + box-shadow</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================
+       5. SPACING & LAYOUT
+       ============================ -->
+  <div class="kit-section">
+    <div class="kit-section-label">05 — Spacing &amp; Layout</div>
+    <div class="kit-section-title">Layout System</div>
+    <div class="kit-section-desc">Clean container-based layout with generous vertical breathing room between sections.</div>
+
+    <div class="spec-grid">
+      <div class="spec-card">
+        <h4>Container &amp; Layout</h4>
+        <div class="spec-row"><span class="spec-label">Max content width</span><span class="spec-val">1200px</span></div>
+        <div class="spec-row"><span class="spec-label">Header max-width</span><span class="spec-val">1400px</span></div>
+        <div class="spec-row"><span class="spec-label">Container padding</span><span class="spec-val">40px (desktop)</span></div>
+        <div class="spec-row"><span class="spec-label">Container padding</span><span class="spec-val">20px (mobile)</span></div>
+        <div class="spec-row"><span class="spec-label">Header height</span><span class="spec-val">72px (64px mobile)</span></div>
+      </div>
+      <div class="spec-card">
+        <h4>Section Spacing</h4>
+        <div class="spec-row"><span class="spec-label">Section padding</span><span class="spec-val">100–120px vertical</span></div>
+        <div class="spec-row"><span class="spec-label">Heading → content</span><span class="spec-val">48–64px</span></div>
+        <div class="spec-row"><span class="spec-label">Card grid gap</span><span class="spec-val">24px</span></div>
+        <div class="spec-row"><span class="spec-label">Internal card padding</span><span class="spec-val">32–40px</span></div>
+        <div class="spec-row"><span class="spec-label">CTA top margin</span><span class="spec-val">48–56px</span></div>
+      </div>
+    </div>
+
+    <div class="spec-card" style="margin-top:16px;">
+      <h4>Border Radius</h4>
+      <div class="radius-demos">
+        <div class="radius-demo"><div class="radius-box" style="border-radius:8px;"></div><span>8px (sm)</span></div>
+        <div class="radius-demo"><div class="radius-box" style="border-radius:16px;"></div><span>16px (md)</span></div>
+        <div class="radius-demo"><div class="radius-box" style="border-radius:24px;"></div><span>24px (lg)</span></div>
+        <div class="radius-demo"><div class="radius-box" style="border-radius:999px;"></div><span>999px (pill)</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================
+       6. BRAND VOICE
+       ============================ -->
+  <div class="kit-section">
+    <div class="kit-section-label">06 — Brand Voice</div>
+    <div class="kit-section-title">Tone &amp; Language</div>
+    <div class="kit-section-desc">WELKOMME-INN sounds like a real person running a real business. Direct, practical, local. Never corporate, never salesy.</div>
+
+    <div class="voice-grid">
+      <div class="voice-card do">
+        <h4>✓ Do</h4>
+        <p>Sound local, direct, and practical.</p>
+        <div class="voice-examples">
+          <div class="voice-ex">"You deal directly with me."</div>
+          <div class="voice-ex">"No call centres, no layers, no excuses."</div>
+          <div class="voice-ex">"We handle SEF registration and tourist tax."</div>
+          <div class="voice-ex">"Call Pedro. Get started fast."</div>
+        </div>
+      </div>
+      <div class="voice-card dont">
+        <h4>✗ Don't</h4>
+        <p>Sound corporate, vague, or inflated.</p>
+        <div class="voice-examples">
+          <div class="voice-ex">"Leveraging synergies in property solutions"</div>
+          <div class="voice-ex">"Your luxury escape awaits"</div>
+          <div class="voice-ex">"We are committed to excellence"</div>
+          <div class="voice-ex">"Our dedicated team of experts"</div>
+        </div>
+      </div>
+      <div class="voice-card do">
+        <h4>✓ Key Phrases</h4>
+        <p>Recurring language anchors to use across all channels.</p>
+        <div class="voice-examples">
+          <div class="voice-ex">Small, dedicated team</div>
+          <div class="voice-ex">Direct communication with Pedro</div>
+          <div class="voice-ex">Based in Portimão</div>
+          <div class="voice-ex">Full accountability</div>
+          <div class="voice-ex">Faster than agencies</div>
+        </div>
+      </div>
+      <div class="voice-card dont">
+        <h4>✗ Banned Words</h4>
+        <p>Never use these in any WELKOMME-INN content.</p>
+        <div class="voice-examples">
+          <div class="voice-ex">Luxury / paradise / escape / hideaway</div>
+          <div class="voice-ex">World-class / best-in-class / premium</div>
+          <div class="voice-ex">Seamless / holistic / bespoke</div>
+          <div class="voice-ex">Solutions / leverage / synergy</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================
+       7. QUICK REFERENCE
+       ============================ -->
+  <div class="kit-section">
+    <div class="kit-section-label">07 — Quick Reference</div>
+    <div class="kit-section-title">CSS Variables</div>
+    <div class="kit-section-desc">Copy-paste ready for any new page or component.</div>
+
+    <div class="spec-card">
+      <pre style="font-family:'DM Sans',monospace; font-size:13px; line-height:2; color:#4a4a4a; overflow-x:auto; white-space:pre-wrap;">:root {
+  /* Colors */
+  --white: #ffffff;
+  --off-white: #f8f9fa;
+  --black: #111111;
+  --dark: #1a1a1a;
+  --gray-100: #f5f5f5;
+  --gray-200: #e8e8e8;
+  --gray-300: #d1d1d1;
+  --gray-400: #a0a0a0;
+  --gray-500: #6b6b6b;
+  --gray-600: #4a4a4a;
+  --blue: #0066ff;
+  --blue-dark: #0052cc;
+  --icon-bg: #eef2ff;
+
+  /* Typography */
+  --font-body: 'DM Sans', sans-serif;
+  --font-display: 'Playfair Display', serif;
+
+  /* Layout */
+  --container: 1200px;
+  --header-h: 72px;
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-pill: 999px;
+}</pre>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="kit-footer">
+    <p>WELKOMME-INN Brand Kit · v1.0 · April 2026</p>
+    <p style="margin-top:4px;">Prepared for Pedro Almeida · Portimão, Algarve</p>
+  </div>
+
+</div>
+
+</body>
+</html>
