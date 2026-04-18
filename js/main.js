@@ -322,18 +322,29 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 1200);
   });
 
-  /* ── HERO IMAGE PARALLAX + LOAD ANIMATION ────────────────── */
-  const heroImg = document.querySelector('.hero-image');
-  if (heroImg) {
-    heroImg.addEventListener('load', () => heroImg.classList.add('loaded'));
-    if (heroImg.complete) heroImg.classList.add('loaded');
+  /* ── HERO PARALLAX (GSAP ScrollTrigger) ─────────────────── */
+  if (typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
+    gsap.registerPlugin(ScrollTrigger);
 
-    window.addEventListener('scroll', () => {
-      const scrollY = window.scrollY;
-      if (scrollY < window.innerHeight) {
-        heroImg.style.transform = `translateY(${scrollY * 0.25}px)`;
+    // Subtle zoom-in on load (scale 1.06 → 1 over 6s)
+    gsap.from('.hero-image', {
+      scale: 1.06,
+      duration: 6,
+      ease: 'power2.out'
+    });
+
+    // Scroll parallax: image moves UP slower than the page scrolls,
+    // so the visible hero area is always fully covered — no gap on scroll up or down.
+    gsap.to('.hero-image', {
+      yPercent: 15,   // move image DOWN 15% as hero exits upward — gap stays off-screen
+      ease: 'none',
+      scrollTrigger: {
+        trigger: '.hero',
+        start: 'top top',
+        end: 'bottom top',
+        scrub: 1.2      // slight lag for a silky feel
       }
-    }, { passive: true });
+    });
   }
 
   /* ── BACK TO TOP ─────────────────────────────────────────── */
