@@ -342,28 +342,28 @@ window.translations = {
 
     /* ── Hero ─────────────────────────────────────────────── */
     hero_badge:         'Sediados em Portimão, Algarve',
-    hero_title:         'Gestão de imóveis que <em>realmente funciona.</em>',
-    hero_subtitle:      'Dirigido por Pedro Almeida — uma equipa pequena e dedicada à gestão de Airbnb e arrendamentos de curta duração em Portimão. Comunicação direta. Ação rápida. Total responsabilidade.',
-    hero_cta_primary:   'Obter Avaliação Gratuita',
-    hero_cta_secondary: 'Ver Como Funciona',
+    hero_title:         'Gestão de alojamento que <em>realmente funciona.</em>',
+    hero_subtitle:      'Com Pedro Almeida à frente — uma equipa pequena e focada na gestão de Airbnb e arrendamentos de curta duração em Portimão. Fala diretamente connosco. Respondemos sempre. Estamos sempre por cá.',
+    hero_cta_primary:   'Pedir Avaliação Gratuita',
+    hero_cta_secondary: 'Como Funciona',
     hero_scroll:        'Descer',
 
     /* ── Stats ────────────────────────────────────────────── */
-    stats_properties_label: 'Propriedades geridas',
-    stats_rating_label:     'Classificação média',
+    stats_properties_label: 'Alojamentos sob gestão',
+    stats_rating_label:     'Classificação média de hóspedes',
     stats_years_suffix:     '+ anos',
     stats_years_label:      'Em Portimão',
     stats_support_label:    'Apoio a hóspedes',
 
     /* ── Sobre nós ────────────────────────────────────────── */
     about_label:   'Porquê a WELKOMME-INN',
-    about_heading: 'A sua propriedade, gerida por pessoas que realmente aparecem',
-    about_text:    'Sou o Pedro Almeida. Giro a WELKOMME-INN com uma pequena equipa dedicada em Portimão. Não somos uma agência com centenas de propriedades e uma linha de apoio que não consegue contactar. <strong>Trata diretamente comigo.</strong> Quando um hóspede tem um problema às 23h, eu resolvo. Quando um cano rebenta, estou lá. Gerimos tudo — desde a fotografia profissional e configuração de listagens até à limpeza, manutenção, registo no SEF e taxa turística. <strong>Sem intermediários. Sem demoras. Só trabalho, feito como deve ser.</strong>',
-    about_cta:     'Ver propriedades geridas',
+    about_heading: 'A sua propriedade nas mãos de quem nunca falha',
+    about_text:    'Sou o Pedro Almeida. Giro a WELKOMME-INN com uma equipa pequena e dedicada, cá em Portimão. Não somos uma agência com centenas de alojamentos e uma linha de apoio que ninguém atende. <strong>Trata diretamente comigo.</strong> Quando um hóspede tem um problema às 23h, trato disso. Quando rebenta um cano, estou lá. Cuidamos de tudo — fotografia profissional, criação de anúncios, limpeza, manutenção, registo no SEF e taxa turística. <strong>Sem intermediários. Sem demoras. Só trabalho bem feito.</strong>',
+    about_cta:     'Conhecer os alojamentos',
 
     /* ── Serviços ─────────────────────────────────────────── */
     services_label:   'O que gerimos',
-    services_heading: 'Tudo o que o seu alojamento precisa, tratado',
+    services_heading: 'Tudo o que o seu alojamento precisa — tratamos nós',
 
     services_card1_title: 'Publicidade e Reservas',
     services_card1_i1:    'Anúncios no Airbnb e Booking.com',
@@ -377,104 +377,104 @@ window.translations = {
     services_card2_i2:    'Roupa de cama, toalhas e amenities',
     services_card2_i3:    'Manutenção e reparações',
     services_card2_i4:    'Apoio em seguros da propriedade',
-    services_card2_i5:    'Área de acesso ao proprietário',
+    services_card2_i5:    'Área reservada ao proprietário',
 
-    services_card3_title: 'Gestão de Hóspedes',
+    services_card3_title: 'Apoio a Hóspedes',
     services_card3_i1:    'Verificação de hóspedes',
     services_card3_i2:    'Check-in e check-out',
     services_card3_i3:    'Registo no SEF',
-    services_card3_i4:    'Tratamento da taxa turística',
+    services_card3_i4:    'Cobrança da taxa turística',
     services_card3_i5:    'Apoio 24/7 a hóspedes',
     services_card3_i6:    'Guias personalizados para hóspedes',
 
-    services_cta: 'Obter avaliação gratuita da propriedade',
+    services_cta: 'Pedir avaliação gratuita da propriedade',
 
     /* ── Como Funciona ────────────────────────────────────── */
     how_label:   'Como funciona',
-    how_heading: 'Da primeira chamada à primeira reserva',
-    how_sub:     'Sem contratos prolongados. Sem configurações complicadas. Pedro visita a sua propriedade, avalia o que é necessário e começa a trabalhar — normalmente em menos de uma semana.',
+    how_heading: 'Da primeira conversa à primeira reserva',
+    how_sub:     'Sem contratos complicados. Sem burocracias. Pedro visita a sua propriedade, avalia o que é preciso e põe tudo a funcionar — normalmente numa semana.',
 
-    how_title: 'Fale com o Pedro. Comece rapidamente.',
-    how_desc:  'Sem processos de integração complicados. Ligue ou envie mensagem pelo WhatsApp, fale sobre a sua propriedade e eu irei visitá-la. Chegamos a acordo sobre o que precisa e começo a trabalhar — normalmente em poucos dias.',
+    how_title: 'Fale com o Pedro. Começamos já.',
+    how_desc:  'Sem formalidades desnecessárias. Ligue ou escreva no WhatsApp, conte-me a sua situação e eu apareço para ver a propriedade. Combinamos o que precisa e ponho-me a trabalhar — normalmente em poucos dias.',
 
     how_step1_title: 'Avaliação gratuita da propriedade',
-    how_step1_desc:  'Visito a sua propriedade, verifico o estado, revejo a listagem atual e discuto os seus objetivos.',
+    how_step1_desc:  'Vou ver a sua propriedade, avalio o estado, analiso o anúncio atual e percebo quais são os seus objetivos.',
 
-    how_step2_title: 'Plano de gestão personalizado',
-    how_step2_desc:  'Recebe uma proposta clara — os serviços necessários, o custo e quando começamos. Sem taxas ocultas.',
+    how_step2_title: 'Proposta à medida',
+    how_step2_desc:  'Recebe uma proposta clara — os serviços de que precisa, o custo e quando arrancamos. Sem surpresas.',
 
-    how_step3_title: 'Fotografia, listagem e publicação',
-    how_step3_desc:  'Fotografamos a propriedade, otimizamos ou criamos as listagens, configuramos os horários de limpeza e começamos a aceitar reservas.',
+    how_step3_title: 'Fotografias, anúncio e arranque',
+    how_step3_desc:  'Fotografamos a propriedade, criamos ou melhoramos os anúncios, definimos os horários de limpeza e começamos a receber reservas.',
 
     /* ── Área de Serviço ──────────────────────────────────── */
-    areas_label:       'Área de serviço',
-    areas_heading:     'Onde operamos',
-    areas_sub:         'Operamos exclusivamente em Portimão — mantendo a nossa área restrita para que o Pedro esteja sempre disponível no local.',
+    areas_label:       'Zona de atuação',
+    areas_heading:     'Onde trabalhamos',
+    areas_sub:         'Trabalhamos exclusivamente em Portimão — assim o Pedro consegue estar no local em minutos, sempre que for preciso.',
     areas_pin:         'Portimão, Algarve · Portugal',
     areas_city:        'Portimão',
-    areas_desc:        'A nossa base de operações e o único local onde trabalhamos. Apartamentos no centro, arrendamentos à beira-rio, propriedades frente ao mar na Praia da Rocha e vivendas perto de Alvor — tudo dentro do município de Portimão, tudo ao alcance.',
+    areas_desc:        'A nossa base e o único sítio onde trabalhamos. Apartamentos no centro, alojamentos à beira-rio, propriedades frente ao mar na Praia da Rocha e moradias perto de Alvor — tudo dentro do município de Portimão, tudo ao alcance.',
     areas_tag1:        'Centro de Portimão',
     areas_tag2:        'Praia da Rocha',
     areas_tag3:        'Alvor',
     areas_stat1_num:   '~30m',
-    areas_stat1_label: 'Resposta no local',
+    areas_stat1_label: 'No local',
     areas_stat2_num:   '1',
-    areas_stat2_label: 'Cidade. Feito bem.',
+    areas_stat2_label: 'Zona. Bem gerida.',
 
     /* ── Preços ───────────────────────────────────────────── */
-    pricing_label:   'Preços de gestão',
-    pricing_heading: 'Preços transparentes, sem taxas ocultas',
-    pricing_sub:     'Paga uma percentagem do seu rendimento de arrendamento. Quando a sua propriedade ganha, nós ganhamos. Os preços são adaptados à sua propriedade — contacte o Pedro para um orçamento.',
-    pricing_popular: 'Mais popular',
+    pricing_label:   'Preços',
+    pricing_heading: 'Transparência total, sem custos escondidos',
+    pricing_sub:     'Cobramos só quando a sua propriedade rende. A percentagem é calculada sobre o rendimento — fale com o Pedro para um orçamento personalizado.',
+    pricing_popular: 'Mais escolhido',
 
     pricing_tier1:  'Essencial',
     pricing_price1: '15%',
     pricing_per1:   'do rendimento de arrendamento',
-    pricing_desc1:  'Para proprietários que gerem as suas próprias reservas mas precisam de apoio local fiável no terreno.',
-    pricing_f1_1:   'Limpeza profissional entre hóspedes',
+    pricing_desc1:  'Para proprietários que gerem as próprias reservas mas precisam de alguém de confiança cá no terreno.',
+    pricing_f1_1:   'Limpeza profissional entre estadias',
     pricing_f1_2:   'Roupa de cama, toalhas e amenities',
     pricing_f1_3:   'Check-in e check-out de hóspedes',
     pricing_f1_4:   'Gestão de chaves',
-    pricing_f1_5:   'Coordenação básica de manutenção',
+    pricing_f1_5:   'Coordenação de manutenção',
     pricing_f1_6:   'Registo no SEF e taxa turística',
     pricing_cta1:   'Falar com o Pedro',
 
     pricing_tier2:  'Gestão Completa',
     pricing_price2: '20%',
     pricing_per2:   'do rendimento de arrendamento',
-    pricing_desc2:  'Gestão totalmente passiva. Tratamos de tudo, desde a fotografia ao check-out dos hóspedes. O proprietário recebe o rendimento.',
+    pricing_desc2:  'Sem preocupações da sua parte. Cuidamos de tudo, das fotografias ao check-out. O proprietário recebe o dinheiro.',
     pricing_f2_1:   'Tudo o que está no Essencial',
-    pricing_f2_2:   'Fotografia profissional e criação de listagem',
-    pricing_f2_3:   'Consultoria de interiores e aconselhamento de decoração',
+    pricing_f2_2:   'Fotografia profissional e criação de anúncios',
+    pricing_f2_3:   'Consultoria de interiores e sugestões de decoração',
     pricing_f2_4:   'Preços dinâmicos e gestão de anúncios',
-    pricing_f2_5:   'Comunicação completa com hóspedes (24/7)',
+    pricing_f2_5:   'Comunicação com hóspedes 24/7',
     pricing_f2_6:   'Verificação de hóspedes e guias personalizados',
     pricing_f2_7:   'Manutenção, reparações e apoio em seguros',
-    pricing_f2_8:   'Área de acesso ao proprietário e relatórios mensais',
-    pricing_cta2:   'Obter avaliação gratuita',
+    pricing_f2_8:   'Área do proprietário e relatórios mensais',
+    pricing_cta2:   'Pedir avaliação gratuita',
 
     /* ── Alojamentos ──────────────────────────────────────── */
     properties_label:   'Alojamentos disponíveis',
-    properties_heading: 'Reserve uma estadia em Portimão',
-    properties_sub:     'À procura de um alojamento de férias em Portimão? Todas as nossas propriedades são geridas profissionalmente, impecavelmente limpas e com apoio local. Contacte o Pedro para verificar disponibilidade.',
+    properties_heading: 'Fique em Portimão',
+    properties_sub:     'À procura de um alojamento de férias em Portimão? Todas as nossas propriedades são geridas com rigor, impecavelmente limpas e com apoio local garantido. Contacte o Pedro para disponibilidade.',
 
     prop1_badge: 'Superhost',
     prop1_loc:   'Centro de Portimão',
-    prop1_title: 'Apartamento T2 moderno com vistas para o rio',
+    prop1_title: 'T2 moderno com vistas para o rio',
     prop1_meta:  '2 quartos · 1 casa de banho · 4 hóspedes',
     prop1_price: '€85',
     prop1_per:   '/ noite',
 
-    prop2_badge: 'Top classificado',
+    prop2_badge: 'Melhor avaliado',
     prop2_loc:   'Praia da Rocha',
-    prop2_title: 'Estúdio luminoso a passos da praia',
+    prop2_title: 'Estúdio luminoso mesmo ao pé da praia',
     prop2_meta:  'Estúdio · 1 casa de banho · 2 hóspedes',
     prop2_price: '€65',
     prop2_per:   '/ noite',
 
-    prop3_badge: 'Nova listagem',
+    prop3_badge: 'Novo anúncio',
     prop3_loc:   'Alvor',
-    prop3_title: 'Vivenda T3 com piscina privativa',
+    prop3_title: 'Moradia T3 com piscina privativa',
     prop3_meta:  '3 quartos · 2 casas de banho · 6 hóspedes',
     prop3_price: '€145',
     prop3_per:   '/ noite',
@@ -482,26 +482,26 @@ window.translations = {
     properties_cta: 'Contacte o Pedro para disponibilidade',
 
     /* ── Contacto ─────────────────────────────────────────── */
-    contact_label:   'Entre em contacto',
+    contact_label:   'Fale Connosco',
     contact_heading: 'Fale diretamente com o Pedro',
-    contact_sub:     'Proprietário ou hóspede — obtém a mesma resposta rápida. Sem formulários, sem esperas. Ligue, envie mensagem ou escreva um e-mail.',
+    contact_sub:     'Proprietário ou hóspede — a resposta é sempre rápida. Sem formulários nem filas de espera. Ligue, escreva no WhatsApp ou envie um e-mail.',
 
     contact_phone_title: 'Telefone / WhatsApp',
-    contact_phone_desc:  'Ligue ou envie mensagem diretamente ao Pedro. Sem central de atendimento, sem filas.',
+    contact_phone_desc:  'Fale diretamente com o Pedro. Sem central de atendimento, sem esperas.',
 
     contact_email_title: 'E-mail',
-    contact_email_desc:  'Para questões sobre propriedades, pedidos de avaliação ou perguntas de hóspedes.',
+    contact_email_desc:  'Para questões sobre propriedades, pedidos de avaliação ou dúvidas de hóspedes.',
 
     contact_loc_title: 'Localização',
     contact_loc_desc:  'Beco Três Castelos, Torre Verde',
     contact_loc_val:   'Portimão, Algarve · Portugal',
 
     /* ── Formulário ───────────────────────────────────────── */
-    form_heading:            'Pedir uma avaliação gratuita',
-    form_desc:               'Conte-nos sobre a sua propriedade e entraremos em contacto em 24 horas.',
+    form_heading:            'Pedir avaliação gratuita',
+    form_desc:               'Conte-nos sobre a sua propriedade e o Pedro entra em contacto em 24 horas.',
     form_label_name:         'Nome completo *',
     form_placeholder_name:   'O seu nome',
-    form_label_email:        'Endereço de e-mail *',
+    form_label_email:        'E-mail *',
     form_placeholder_email:  'voce@exemplo.com',
     form_label_phone:        'Telefone / WhatsApp',
     form_placeholder_phone:  '+351 …',
@@ -514,7 +514,7 @@ window.translations = {
     form_placeholder_msg:    'Conte-nos sobre a sua propriedade ou questão…',
     form_submit:             'Enviar mensagem',
     form_success_title:      'Mensagem enviada!',
-    form_success_desc:       'O Pedro entrará em contacto em 24 horas. Pode também contactá-lo diretamente no <strong>+351 927 970 151</strong>.',
+    form_success_desc:       'O Pedro entra em contacto em 24 horas. Pode também falar com ele diretamente pelo <strong>+351 927 970 151</strong>.',
 
     /* ── Avaliações ───────────────────────────────────────── */
     reviews_label:   'Avaliações',
@@ -526,49 +526,49 @@ window.translations = {
 
     /* ── Blog ─────────────────────────────────────────────── */
     blog_label:   'Recursos para proprietários',
-    blog_heading: 'Guias e dicas',
+    blog_heading: 'Guias e artigos',
 
-    blog1_tag:     'Gestão de Propriedades',
-    blog1_title:   'O que procurar num gestor de propriedades em Portimão',
-    blog1_excerpt: 'Da conformidade com o SEF aos padrões de limpeza — o que separa uma boa gestão de uma má no Algarve.',
+    blog1_tag:     'Gestão de Alojamento',
+    blog1_title:   'O que procurar num gestor de alojamento em Portimão',
+    blog1_excerpt: 'Do cumprimento do SEF aos padrões de limpeza — o que distingue uma boa gestão de uma má no Algarve.',
 
-    blog2_tag:     'Rendimento de Arrendamento',
-    blog2_title:   'Quanto pode a sua propriedade em Portimão realmente render?',
-    blog2_excerpt: 'Expectativas realistas de rendimento com base na localização, tipo de propriedade e sazonalidade.',
+    blog2_tag:     'Rendimento',
+    blog2_title:   'Quanto pode render a sua propriedade em Portimão?',
+    blog2_excerpt: 'Expectativas realistas de rendimento, com base na localização, tipo de imóvel e sazonalidade.',
 
-    blog3_tag:     'Regulamentação',
+    blog3_tag:     'Legislação',
     blog3_title:   'Licença AL em Portugal: o que os proprietários precisam de saber',
-    blog3_excerpt: 'Um guia prático sobre os requisitos de licenciamento de alojamento de curta duração no Algarve.',
+    blog3_excerpt: 'Um guia prático sobre os requisitos de licenciamento de alojamento local no Algarve.',
 
     /* ── FAQ ──────────────────────────────────────────────── */
     faq_label:   'FAQ',
     faq_heading: 'Perguntas frequentes',
 
-    faq_q1: 'Em que se distingue a WELKOMME-INN de uma agência de gestão de maior dimensão?',
-    faq_a1: 'Somos uma equipa pequena — o Pedro Almeida gere a operação diretamente, apoiado por um gestor de marketing. Isso significa que fala diretamente com a pessoa que realmente gere a sua propriedade. Sem gestores de conta, sem rotatividade de pessoal, sem mensagens perdidas. Gerimos menos propriedades e dedicamos a cada uma mais atenção do que qualquer grande agência poderia.',
+    faq_q1: 'Como é que a WELKOMME-INN se distingue de uma grande agência?',
+    faq_a1: 'Somos uma equipa pequena — o Pedro Almeida gere tudo diretamente, com o apoio de um responsável de marketing. Isso significa que fala com quem realmente cuida da sua propriedade. Sem gestores de conta intercambiáveis, sem rotatividade de pessoal, sem mensagens perdidas. Gerimos menos propriedades e dedicamos a cada uma muito mais atenção do que qualquer grande agência conseguiria.',
 
-    faq_q2: 'Vivo no estrangeiro. Podem gerir a minha propriedade remotamente?',
-    faq_a2: 'Sim — muitos dos nossos clientes vivem no Reino Unido, Países Baixos, Alemanha ou noutras partes de Portugal. O Pedro trata de tudo no terreno: chegadas de hóspedes, limpeza, reparações de emergência, inspeções. Recebe atualizações regulares e pode contactar-nos a qualquer momento por WhatsApp, telefone ou e-mail.',
+    faq_q2: 'Vivo no estrangeiro. Podem gerir a minha propriedade à distância?',
+    faq_a2: 'Sim — muitos dos nossos clientes vivem no Reino Unido, Países Baixos, Alemanha ou noutras zonas de Portugal. O Pedro trata de tudo cá: recebe os hóspedes, coordena a limpeza, resolve urgências e faz inspeções. Recebe atualizações regulares e pode contactar-nos a qualquer hora por WhatsApp, telefone ou e-mail.',
 
     faq_q3: 'Tratam do registo no SEF e da taxa turística?',
-    faq_a3: 'Sim. Tratamos da comunicação com o SEF (registo obrigatório de hóspedes com as autoridades de imigração portuguesas), da cobrança e pagamento da taxa turística e de outros requisitos legais para arrendamentos de curta duração. Está incluído no nosso serviço — não precisa de se preocupar com a conformidade.',
+    faq_a3: 'Sim. Tratamos do registo obrigatório de hóspedes junto das autoridades de imigração (SEF), da cobrança e liquidação da taxa turística e de tudo o que a lei exige para arrendamentos de curta duração. Está incluído no serviço — não precisa de se preocupar com nada disso.',
 
-    faq_q4: 'Existe um período mínimo de contrato?',
-    faq_a4: 'Sem vinculação a longo prazo. Oferecemos acordos flexíveis com um período de pré-aviso de 30 dias. Se não ficar satisfeito, pode sair. O trabalho deve falar por si — não uma cláusula contratual.',
+    faq_q4: 'Existe período mínimo de contrato?',
+    faq_a4: 'Não. Os nossos acordos são flexíveis, com 30 dias de pré-aviso. Se não ficar satisfeito, sai sem complicações. O nosso trabalho fala por si — não precisa de um contrato para ficar.',
 
-    faq_q5: 'Que áreas abrangem?',
-    faq_a5: 'A nossa base é em Portimão (Beco Três Castelos, Torre Verde) e cobrimos principalmente o centro de Portimão, a Praia da Rocha e Alvor. Mantemos a área restrita para que o Pedro possa responder rapidamente — normalmente em 30 minutos — em vez de nos dispersarmos por todo o Algarve.',
+    faq_q5: 'Que zonas abrangem?',
+    faq_a5: 'A nossa base é em Portimão (Beco Três Castelos, Torre Verde). Cobrimos o centro de Portimão, a Praia da Rocha e Alvor. Mantemos a zona pequena para que o Pedro chegue depressa — normalmente em 30 minutos — em vez de nos dispersarmos por todo o Algarve.',
 
-    faq_q6: 'O que está incluído na limpeza e na preparação entre hóspedes?',
-    faq_a6: 'Limpeza profissional entre cada estadia, roupa de cama e toalhas frescas, reabastecimento de amenities e uma inspeção de qualidade antes da chegada do próximo hóspede. Tratamos também da gestão de lavandaria. Tudo é feito com um padrão consistente — não à pressa entre reservas.',
+    faq_q6: 'O que inclui a limpeza e a preparação entre estadias?',
+    faq_a6: 'Limpeza profissional entre cada estadia, roupa de cama e toalhas lavadas, reposição de amenities e uma inspeção antes da chegada do próximo hóspede. Tratamos também da lavandaria. Tudo feito com o mesmo cuidado — sem pressas entre reservas.',
 
     faq_q7: 'Sou turista. Como posso reservar uma estadia?',
-    faq_a7: 'Pode encontrar as nossas propriedades no Airbnb e no Booking.com. Se preferir reservar diretamente, contacte o Pedro por telefone (+351 927 970 151), WhatsApp ou e-mail (geral@welkome-inn.com) e ele verificará a disponibilidade e enviará os detalhes.',
+    faq_a7: 'As nossas propriedades estão no Airbnb e no Booking.com. Se preferir reservar diretamente, fale com o Pedro por telefone (+351 927 970 151), WhatsApp ou e-mail (geral@welkome-inn.com) e ele confirma disponibilidade e envia-lhe todos os detalhes.',
 
     /* ── CTA Final ────────────────────────────────────────── */
-    cta_title: 'A sua propriedade merece uma gestão melhor.',
-    cta_sub:   'Obtenha uma avaliação gratuita e sem compromisso. O Pedro visitará, analisará a sua situação atual e diz-lhe exatamente o que podemos melhorar.',
-    cta_btn:   'Obter a Sua Avaliação Gratuita',
+    cta_title: 'A sua propriedade merece melhor gestão.',
+    cta_sub:   'Marque uma visita gratuita e sem compromisso. O Pedro vai à sua propriedade, analisa o que tem e apresenta uma proposta clara sobre o que podemos melhorar.',
+    cta_btn:   'Pedir Avaliação Gratuita',
 
     /* ── Rodapé ───────────────────────────────────────────── */
     footer_address:       'Beco Três Castelos, Torre Verde · Portimão, Algarve',
@@ -585,7 +585,7 @@ window.translations = {
     testimonials: [
       {
         stars: 5,
-        quote: '"Vivo nos Países Baixos e estava farto de agências que não atendiam as minhas chamadas. Com o Pedro, envio uma mensagem pelo WhatsApp e recebo resposta em minutos. Trata de tudo — registo no SEF, taxa turística, limpeza — eu limito-me a verificar os relatórios."',
+        quote: '"Vivo nos Países Baixos e estava farto de agências que nunca atendiam. Com o Pedro, mando uma mensagem pelo WhatsApp e tenho resposta em minutos. Cuida de tudo — registo no SEF, taxa turística, limpeza — eu só preciso de ver os relatórios."',
         name:  'Pieter van D.',
         loc:   'Amesterdão, Países Baixos',
         role:  'Proprietário — 2 apartamentos',
@@ -593,7 +593,7 @@ window.translations = {
       },
       {
         stars: 5,
-        quote: '"Estava tudo impecável quando chegámos. O Pedro respondeu em minutos quando tínhamos dúvidas sobre estacionamento. Toalhas frescas, dicas de restaurantes no guia — um dos check-ins mais fluidos que já tivemos em Portugal."',
+        quote: '"Estava tudo impecável quando chegámos. O Pedro respondeu em minutos quando tivemos dúvidas com o estacionamento. Toalhas lavadas, sugestões de restaurantes no guia — uma das chegadas mais tranquilas que tivemos em Portugal."',
         name:  'Sarah M.',
         loc:   'Londres, Reino Unido',
         role:  'Hóspede — Praia da Rocha',
@@ -601,15 +601,15 @@ window.translations = {
       },
       {
         stars: 5,
-        quote: '"Antes da WELKOMME-INN eu próprio geria três propriedades a partir de Lisboa. Agora o Pedro trata dos check-ins, limpeza, manutenção — até tirou novas fotografias que melhoraram as minhas reservas. Eu limito-me a ver os relatórios mensais."',
+        quote: '"Antes da WELKOMME-INN geria três propriedades sozinho a partir de Lisboa. Agora o Pedro trata dos hóspedes, da limpeza e da manutenção — até tirou novas fotografias que melhoraram as reservas. Eu só preciso de consultar os relatórios mensais."',
         name:  'Ricardo S.',
         loc:   'Lisboa, Portugal',
-        role:  'Proprietário — 3 unidades',
+        role:  'Proprietário — 3 alojamentos',
         color: '#4A6741'
       },
       {
         stars: 5,
-        quote: '"O apartamento era perfeito. Limpo, bem equipado e excelente localização perto da Praia da Rocha. Nota-se que alguém realmente cuida da propriedade — não é mais um alojamento genérico sem apoio local."',
+        quote: '"O apartamento era perfeito. Limpo, bem equipado e óptima localização perto da Praia da Rocha. Nota-se que alguém cuida mesmo da propriedade — não é mais um alojamento genérico sem apoio nenhum."',
         name:  'Thomas & Lena K.',
         loc:   'Munique, Alemanha',
         role:  'Hóspedes — Portimão',
@@ -628,34 +628,34 @@ window.translations = {
     nav_services: 'Servicios',
     nav_how:      'Cómo Funciona',
     nav_pricing:  'Precios',
-    nav_rentals:  'Alquileres',
+    nav_rentals:  'Alojamientos',
     nav_contact:  'Contacto',
     nav_cta:      'Evaluación Gratuita',
 
     /* ── Hero ─────────────────────────────────────────────── */
-    hero_badge:         'Con sede en Portimão, Algarve',
-    hero_title:         'Gestión de propiedades que <em>realmente funciona.</em>',
-    hero_subtitle:      'Dirigido por Pedro Almeida — un pequeño equipo dedicado que gestiona Airbnb y alquileres de corta duración en Portimão. Comunicación directa. Acción rápida. Responsabilidad total.',
-    hero_cta_primary:   'Obtener Evaluación Gratuita',
-    hero_cta_secondary: 'Ver Cómo Funciona',
-    hero_scroll:        'Bajar',
+    hero_badge:         'Con base en Portimão, Algarve',
+    hero_title:         'Gestión de propiedades que <em>de verdad funciona.</em>',
+    hero_subtitle:      'Pedro Almeida al frente — un equipo pequeño y comprometido que gestiona Airbnb y alquileres de corta duración en Portimão. Trato directo. Respuesta inmediata. Sin excusas.',
+    hero_cta_primary:   'Pedir Evaluación Gratuita',
+    hero_cta_secondary: 'Cómo Funciona',
+    hero_scroll:        'Ver más',
 
     /* ── Estadísticas ─────────────────────────────────────── */
     stats_properties_label: 'Propiedades gestionadas',
-    stats_rating_label:     'Valoración media',
+    stats_rating_label:     'Valoración media de huéspedes',
     stats_years_suffix:     '+ años',
     stats_years_label:      'En Portimão',
-    stats_support_label:    'Soporte para huéspedes',
+    stats_support_label:    'Atención a huéspedes',
 
     /* ── Sobre nosotros ───────────────────────────────────── */
     about_label:   'Por Qué WELKOMME-INN',
-    about_heading: 'Su propiedad, gestionada por personas que realmente se presentan',
-    about_text:    'Soy Pedro Almeida. Dirijo WELKOMME-INN con un pequeño equipo dedicado en Portimão. No somos una agencia con cientos de propiedades y un centro de llamadas al que no puede llegar. <strong>Trata directamente conmigo.</strong> Cuando un huésped tiene un problema a las 11pm, lo resuelvo. Cuando revienta una tubería, estoy allí. Gestionamos todo — desde la fotografía profesional y la configuración de anuncios hasta la limpieza, el mantenimiento, el registro SEF y la tasa turística. <strong>Sin intermediarios. Sin demoras. Solo el trabajo, hecho correctamente.</strong>',
+    about_heading: 'Su propiedad en manos de quien responde de verdad',
+    about_text:    'Soy Pedro Almeida. Dirijo WELKOMME-INN con un equipo pequeño y comprometido en Portimão. No somos una agencia con cientos de pisos y un call center imposible de contactar. <strong>Trata directamente conmigo.</strong> Cuando un huésped tiene un problema a las 11 de la noche, lo soluciono. Cuando se rompe una tubería, estoy allí. Nos ocupamos de todo — desde las fotos profesionales y la publicación de anuncios hasta la limpieza, el mantenimiento, el registro SEF y la tasa turística. <strong>Sin intermediarios. Sin excusas. Solo trabajo bien hecho.</strong>',
     about_cta:     'Ver propiedades gestionadas',
 
     /* ── Servicios ────────────────────────────────────────── */
     services_label:   'Qué gestionamos',
-    services_heading: 'Todo lo que su alquiler necesita, resuelto',
+    services_heading: 'Todo lo que necesita su alquiler, en buenas manos',
 
     services_card1_title: 'Publicidad y Reservas',
     services_card1_i1:    'Anuncios en Airbnb y Booking.com',
@@ -664,102 +664,102 @@ window.translations = {
     services_card1_i4:    'Consultoría de interiores',
     services_card1_i5:    'Gestión de calendario y reservas',
 
-    services_card2_title: 'Gestión de la Propiedad',
+    services_card2_title: 'Gestión del Alojamiento',
     services_card2_i1:    'Limpieza profesional',
     services_card2_i2:    'Ropa de cama, toallas y artículos de baño',
     services_card2_i3:    'Mantenimiento y reparaciones',
-    services_card2_i4:    'Soporte en seguros de la propiedad',
-    services_card2_i5:    'Área de acceso para propietarios',
+    services_card2_i4:    'Apoyo con seguros del alojamiento',
+    services_card2_i5:    'Área privada para propietarios',
 
-    services_card3_title: 'Gestión de Huéspedes',
+    services_card3_title: 'Atención a Huéspedes',
     services_card3_i1:    'Verificación de huéspedes',
     services_card3_i2:    'Check-in y check-out',
     services_card3_i3:    'Registro SEF',
     services_card3_i4:    'Gestión de la tasa turística',
-    services_card3_i5:    'Soporte 24/7 para huéspedes',
+    services_card3_i5:    'Atención 24/7 a huéspedes',
     services_card3_i6:    'Guías personalizadas para huéspedes',
 
-    services_cta: 'Obtener evaluación gratuita de la propiedad',
+    services_cta: 'Solicitar evaluación gratuita',
 
     /* ── Cómo Funciona ────────────────────────────────────── */
     how_label:   'Cómo funciona',
     how_heading: 'De la primera llamada a la primera reserva',
-    how_sub:     'Sin contratos prolongados. Sin configuraciones complicadas. Pedro visita su propiedad, evalúa lo que se necesita y empieza a trabajar — normalmente en menos de una semana.',
+    how_sub:     'Sin contratos interminables. Sin trámites complicados. Pedro visita su propiedad, valora lo que hace falta y lo pone en marcha — normalmente en menos de una semana.',
 
-    how_title: 'Hable con Pedro. Empiece rápido.',
-    how_desc:  'Sin procesos de incorporación complicados. Llame o envíe un mensaje por WhatsApp, cuénteme sobre su propiedad y la visitaré. Acordamos lo que necesita y me pongo a trabajar — normalmente en pocos días.',
+    how_title: 'Hable con Pedro. Sin rodeos.',
+    how_desc:  'Sin papeleo ni formalidades. Llame o escriba por WhatsApp, cuénteme su situación y voy a ver la propiedad. Acordamos lo que necesita y me pongo a ello — normalmente en pocos días.',
 
     how_step1_title: 'Evaluación gratuita de la propiedad',
-    how_step1_desc:  'Visito su propiedad, compruebo el estado, reviso su anuncio actual y hablamos de sus objetivos.',
+    how_step1_desc:  'Visito la propiedad, reviso su estado, analizo el anuncio actual y hablamos de sus objetivos.',
 
-    how_step2_title: 'Plan de gestión personalizado',
-    how_step2_desc:  'Recibirá una propuesta clara — qué servicios necesita, el coste y cuándo empezamos. Sin cargos ocultos.',
+    how_step2_title: 'Propuesta a medida',
+    how_step2_desc:  'Recibirá una propuesta clara — qué servicios necesita, cuánto cuesta y cuándo empezamos. Sin sorpresas.',
 
-    how_step3_title: 'Fotografía, anuncio y publicación',
-    how_step3_desc:  'Fotografiamos la propiedad, optimizamos o creamos sus anuncios, configuramos los horarios de limpieza y empezamos a aceptar reservas.',
+    how_step3_title: 'Fotos, anuncio y a funcionar',
+    how_step3_desc:  'Fotografiamos la propiedad, creamos u optimizamos los anuncios, organizamos los turnos de limpieza y empezamos a recibir reservas.',
 
     /* ── Área de Servicio ─────────────────────────────────── */
-    areas_label:       'Área de servicio',
-    areas_heading:     'Dónde operamos',
-    areas_sub:         'Operamos exclusivamente en Portimão — manteniendo nuestra área delimitada para que Pedro esté siempre disponible en el lugar.',
+    areas_label:       'Zona de actuación',
+    areas_heading:     'Dónde trabajamos',
+    areas_sub:         'Trabajamos exclusivamente en Portimão — así Pedro puede estar allí en cuestión de minutos cuando hace falta.',
     areas_pin:         'Portimão, Algarve · Portugal',
     areas_city:        'Portimão',
-    areas_desc:        'Nuestra base de operaciones y el único lugar donde trabajamos. Apartamentos en el centro, alquileres junto al río, propiedades frente al mar en Praia da Rocha y villas cerca de Alvor — todo dentro del municipio de Portimão, todo al alcance.',
+    areas_desc:        'Nuestra base y el único lugar donde trabajamos. Apartamentos en el centro, alquileres junto al río, propiedades frente al mar en Praia da Rocha y villas cerca de Alvor — todo dentro del municipio de Portimão, todo al alcance.',
     areas_tag1:        'Centro de Portimão',
     areas_tag2:        'Praia da Rocha',
     areas_tag3:        'Alvor',
     areas_stat1_num:   '~30m',
-    areas_stat1_label: 'Respuesta in situ',
+    areas_stat1_label: 'En el lugar',
     areas_stat2_num:   '1',
-    areas_stat2_label: 'Ciudad. Bien hecho.',
+    areas_stat2_label: 'Zona. Bien trabajada.',
 
     /* ── Precios ──────────────────────────────────────────── */
-    pricing_label:   'Precios de gestión',
-    pricing_heading: 'Precios honestos, sin cargos ocultos',
-    pricing_sub:     'Paga un porcentaje de sus ingresos por alquiler. Cuando su propiedad gana, nosotros ganamos. Los precios se adaptan a su propiedad — contacte a Pedro para un presupuesto.',
-    pricing_popular: 'Más popular',
+    pricing_label:   'Precios',
+    pricing_heading: 'Precios claros, sin letra pequeña',
+    pricing_sub:     'Cobramos un porcentaje de sus ingresos por alquiler. Si su propiedad rinde, nosotros rendimos. Los precios se ajustan a cada caso — consulte a Pedro para un presupuesto.',
+    pricing_popular: 'El más elegido',
 
     pricing_tier1:  'Esencial',
     pricing_price1: '15%',
     pricing_per1:   'de los ingresos por alquiler',
-    pricing_desc1:  'Para propietarios que gestionan sus propias reservas pero necesitan apoyo local fiable sobre el terreno.',
-    pricing_f1_1:   'Limpieza profesional entre huéspedes',
+    pricing_desc1:  'Para propietarios que gestionan sus propias reservas pero necesitan alguien de confianza sobre el terreno.',
+    pricing_f1_1:   'Limpieza profesional entre estancias',
     pricing_f1_2:   'Ropa de cama, toallas y artículos de baño',
     pricing_f1_3:   'Check-in y check-out de huéspedes',
     pricing_f1_4:   'Gestión de llaves',
-    pricing_f1_5:   'Coordinación básica de mantenimiento',
+    pricing_f1_5:   'Coordinación de mantenimiento',
     pricing_f1_6:   'Registro SEF y tasa turística',
     pricing_cta1:   'Hablar con Pedro',
 
     pricing_tier2:  'Gestión Completa',
     pricing_price2: '20%',
     pricing_per2:   'de los ingresos por alquiler',
-    pricing_desc2:  'Gestión totalmente pasiva. Nos encargamos de todo, desde la fotografía hasta el check-out de los huéspedes. El propietario cobra los ingresos.',
+    pricing_desc2:  'Sin preocupaciones de su parte. Nos ocupamos de todo, desde las fotos hasta el check-out. Usted solo cobra.',
     pricing_f2_1:   'Todo lo incluido en Esencial',
     pricing_f2_2:   'Fotografía profesional y creación de anuncios',
     pricing_f2_3:   'Consultoría de interiores y consejos de decoración',
     pricing_f2_4:   'Precios dinámicos y gestión de anuncios',
-    pricing_f2_5:   'Comunicación completa con huéspedes (24/7)',
+    pricing_f2_5:   'Comunicación con huéspedes 24/7',
     pricing_f2_6:   'Verificación de huéspedes y guías personalizadas',
-    pricing_f2_7:   'Mantenimiento, reparaciones y soporte en seguros',
-    pricing_f2_8:   'Área de acceso para propietarios e informes mensuales',
-    pricing_cta2:   'Obtener evaluación gratuita',
+    pricing_f2_7:   'Mantenimiento, reparaciones y apoyo con seguros',
+    pricing_f2_8:   'Área privada para propietarios e informes mensuales',
+    pricing_cta2:   'Pedir evaluación gratuita',
 
-    /* ── Alquileres ───────────────────────────────────────── */
-    properties_label:   'Alquileres disponibles',
-    properties_heading: 'Reserve su estancia en Portimão',
-    properties_sub:     '¿Busca un alquiler vacacional en Portimão? Todas nuestras propiedades están gestionadas profesionalmente, impecablemente limpias y con apoyo local. Contacte a Pedro para disponibilidad.',
+    /* ── Alojamientos ─────────────────────────────────────── */
+    properties_label:   'Alojamientos disponibles',
+    properties_heading: 'Alójese en Portimão',
+    properties_sub:     '¿Busca alojamiento vacacional en Portimão? Todas nuestras propiedades están gestionadas con rigor, siempre limpias y con apoyo local. Contacte a Pedro para consultar disponibilidad.',
 
     prop1_badge: 'Superhost',
     prop1_loc:   'Centro de Portimão',
-    prop1_title: 'Moderno apartamento de 2 hab. con vistas al río',
+    prop1_title: 'Apartamento moderno de 2 hab. con vistas al río',
     prop1_meta:  '2 habitaciones · 1 baño · 4 huéspedes',
     prop1_price: '€85',
     prop1_per:   '/ noche',
 
     prop2_badge: 'Mejor valorado',
     prop2_loc:   'Praia da Rocha',
-    prop2_title: 'Luminoso estudio a pasos de la playa',
+    prop2_title: 'Estudio luminoso a pocos pasos de la playa',
     prop2_meta:  'Estudio · 1 baño · 2 huéspedes',
     prop2_price: '€65',
     prop2_per:   '/ noche',
@@ -774,26 +774,26 @@ window.translations = {
     properties_cta: 'Contacte a Pedro para disponibilidad',
 
     /* ── Contacto ─────────────────────────────────────────── */
-    contact_label:   'Ponerse en contacto',
+    contact_label:   'Contacto',
     contact_heading: 'Hable directamente con Pedro',
-    contact_sub:     'Propietario o huésped — obtendrá la misma respuesta rápida. Sin formularios, sin esperas. Llame, envíe un mensaje o escriba un correo.',
+    contact_sub:     'Propietario o huésped — la respuesta es siempre rápida. Sin formularios ni esperas. Llame, escriba por WhatsApp o mande un correo.',
 
     contact_phone_title: 'Teléfono / WhatsApp',
-    contact_phone_desc:  'Llame o envíe un mensaje directamente a Pedro. Sin centralita, sin colas.',
+    contact_phone_desc:  'Contacte directamente con Pedro. Sin centralitas ni colas.',
 
     contact_email_title: 'Correo electrónico',
-    contact_email_desc:  'Para consultas sobre propiedades, solicitudes de evaluación o preguntas de huéspedes.',
+    contact_email_desc:  'Para consultas sobre propiedades, solicitudes de evaluación o dudas de huéspedes.',
 
     contact_loc_title: 'Ubicación',
     contact_loc_desc:  'Beco Três Castelos, Torre Verde',
     contact_loc_val:   'Portimão, Algarve · Portugal',
 
     /* ── Formulario ───────────────────────────────────────── */
-    form_heading:            'Solicitar una evaluación gratuita',
-    form_desc:               'Cuéntenos sobre su propiedad y nos pondremos en contacto en 24 horas.',
+    form_heading:            'Solicitar evaluación gratuita',
+    form_desc:               'Cuéntenos su caso y Pedro se pone en contacto en menos de 24 horas.',
     form_label_name:         'Nombre completo *',
     form_placeholder_name:   'Su nombre',
-    form_label_email:        'Dirección de correo *',
+    form_label_email:        'Correo electrónico *',
     form_placeholder_email:  'usted@ejemplo.com',
     form_label_phone:        'Teléfono / WhatsApp',
     form_placeholder_phone:  '+351 …',
@@ -803,15 +803,15 @@ window.translations = {
     form_option_guest:       'Huésped / turista',
     form_option_other:       'Otro',
     form_label_msg:          'Mensaje *',
-    form_placeholder_msg:    'Cuéntenos sobre su propiedad o consulta…',
+    form_placeholder_msg:    'Cuéntenos sobre su propiedad o su consulta…',
     form_submit:             'Enviar mensaje',
     form_success_title:      '¡Mensaje enviado!',
-    form_success_desc:       'Pedro se pondrá en contacto en 24 horas. También puede contactarlo directamente en el <strong>+351 927 970 151</strong>.',
+    form_success_desc:       'Pedro le responderá en menos de 24 horas. También puede contactarle directamente en el <strong>+351 927 970 151</strong>.',
 
-    /* ── Reseñas ──────────────────────────────────────────── */
-    reviews_label:   'Reseñas',
+    /* ── Opiniones ────────────────────────────────────────── */
+    reviews_label:   'Opiniones',
     reviews_heading: 'Lo que dicen propietarios y huéspedes',
-    reviews_source:  'Basado en reseñas de Airbnb y Booking.com',
+    reviews_source:  'Basado en valoraciones de Airbnb y Booking.com',
     reviews_comm:    'Comunicación',
     reviews_clean:   'Limpieza',
     reviews_rel:     'Fiabilidad',
@@ -822,45 +822,45 @@ window.translations = {
 
     blog1_tag:     'Gestión de Propiedades',
     blog1_title:   'Qué buscar en un gestor de propiedades en Portimão',
-    blog1_excerpt: 'Del cumplimiento del SEF a los estándares de limpieza — qué separa una buena gestión de una mala en el Algarve.',
+    blog1_excerpt: 'Del cumplimiento del SEF a los estándares de limpieza — qué marca la diferencia entre una buena y una mala gestión en el Algarve.',
 
-    blog2_tag:     'Ingresos por Alquiler',
-    blog2_title:   '¿Cuánto puede ganar realmente su propiedad en Portimão?',
-    blog2_excerpt: 'Expectativas realistas de ingresos por alquiler según ubicación, tipo de propiedad y estacionalidad.',
+    blog2_tag:     'Rendimiento del Alquiler',
+    blog2_title:   '¿Cuánto puede ganar su propiedad en Portimão?',
+    blog2_excerpt: 'Estimaciones realistas de ingresos según ubicación, tipo de alojamiento y temporada.',
 
-    blog3_tag:     'Regulación',
-    blog3_title:   'Licencia AL en Portugal: lo que los propietarios necesitan saber',
-    blog3_excerpt: 'Una guía práctica sobre los requisitos de licencias de alquiler de corta duración en el Algarve.',
+    blog3_tag:     'Normativa',
+    blog3_title:   'Licencia AL en Portugal: lo que debe saber como propietario',
+    blog3_excerpt: 'Guía práctica sobre los requisitos legales para alquileres de corta duración en el Algarve.',
 
     /* ── FAQ ──────────────────────────────────────────────── */
     faq_label:   'FAQ',
     faq_heading: 'Preguntas frecuentes',
 
-    faq_q1: '¿En qué se diferencia WELKOMME-INN de una agencia de gestión grande?',
-    faq_a1: 'Somos un equipo pequeño — Pedro Almeida gestiona la operación directamente, apoyado por un gestor de marketing. Eso significa que habla con la persona que realmente gestiona su propiedad. Sin gestores de cuenta, sin rotación de personal, sin mensajes perdidos. Gestionamos menos propiedades y dedicamos a cada una más atención de la que podría una gran agencia.',
+    faq_q1: '¿En qué se diferencia WELKOMME-INN de una agencia grande?',
+    faq_a1: 'Somos un equipo pequeño — Pedro Almeida lleva la operación directamente, con el apoyo de un responsable de marketing. Eso significa que habla con quien realmente gestiona su propiedad. Sin gestores de cuenta intercambiables, sin rotación de personal, sin mensajes que se pierden. Gestionamos menos propiedades y le dedicamos a cada una mucho más atención que cualquier agencia grande.',
 
-    faq_q2: 'Vivo en el extranjero. ¿Pueden gestionar mi propiedad de forma remota?',
-    faq_a2: 'Sí — muchos de nuestros clientes viven en el Reino Unido, Países Bajos, Alemania o en otras partes de Portugal. Pedro se encarga de todo sobre el terreno: llegadas de huéspedes, limpieza, reparaciones de emergencia, inspecciones. Recibirá actualizaciones periódicas y puede contactarnos en cualquier momento por WhatsApp, teléfono o correo electrónico.',
+    faq_q2: 'Vivo fuera de Portugal. ¿Pueden gestionar mi propiedad a distancia?',
+    faq_a2: 'Sí — muchos de nuestros clientes viven en el Reino Unido, Países Bajos, Alemania u otras partes de Portugal. Pedro se ocupa de todo in situ: recibe a los huéspedes, coordina la limpieza, atiende urgencias y hace inspecciones. Recibirá actualizaciones periódicas y puede contactarnos cuando quiera por WhatsApp, teléfono o correo.',
 
     faq_q3: '¿Se encargan del registro SEF y de la tasa turística?',
-    faq_a3: 'Sí. Nos encargamos de la comunicación con el SEF (registro obligatorio de huéspedes con las autoridades de inmigración portuguesas), la recaudación y el pago de la tasa turística y otros requisitos legales para alquileres de corta duración. Está incluido en nuestro servicio — no tiene que preocuparse por el cumplimiento normativo.',
+    faq_a3: 'Sí. Gestionamos el registro obligatorio de huéspedes ante las autoridades de inmigración (SEF), el cobro y el pago de la tasa turística y el resto de requisitos legales para alquileres de corta duración. Está incluido en el servicio — no tiene que preocuparse por cumplir con la normativa.',
 
-    faq_q4: '¿Existe un período mínimo de contrato?',
-    faq_a4: 'Sin compromiso a largo plazo. Ofrecemos acuerdos flexibles con un período de preaviso de 30 días. Si no está satisfecho, puede irse. El trabajo debe hablar por sí mismo — no una cláusula contractual.',
+    faq_q4: '¿Hay un período mínimo de contrato?',
+    faq_a4: 'No. Trabajamos con acuerdos flexibles y un preaviso de 30 días. Si no está satisfecho, puede irse sin complicaciones. Nuestro trabajo habla por sí solo — no hace falta un contrato para retenerle.',
 
     faq_q5: '¿Qué zonas cubren?',
-    faq_a5: 'Tenemos nuestra base en Portimão (Beco Três Castelos, Torre Verde) y cubrimos principalmente el centro de Portimão, Praia da Rocha y Alvor. Mantenemos el área delimitada para que Pedro pueda responder rápidamente — normalmente en 30 minutos — en lugar de dispersarnos por todo el Algarve.',
+    faq_a5: 'Tenemos la base en Portimão (Beco Três Castelos, Torre Verde) y cubrimos el centro de Portimão, Praia da Rocha y Alvor. Mantenemos la zona acotada para que Pedro pueda responder en minutos — normalmente en 30 — en lugar de dispersarnos por todo el Algarve.',
 
     faq_q6: '¿Qué incluye la limpieza y la preparación entre huéspedes?',
-    faq_a6: 'Limpieza profesional entre cada estancia, ropa de cama y toallas frescas, reposición de artículos de baño y una inspección de calidad antes de la llegada del siguiente huésped. También gestionamos la lavandería. Todo se hace con un estándar consistente — no con prisas entre reservas.',
+    faq_a6: 'Limpieza profesional entre cada estancia, ropa de cama y toallas limpias, reposición de artículos de baño y una revisión de calidad antes de que llegue el siguiente huésped. También gestionamos la lavandería. Todo con el mismo nivel — sin prisas entre reservas.',
 
-    faq_q7: 'Soy turista. ¿Cómo puedo reservar una estancia?',
-    faq_a7: 'Puede encontrar nuestras propiedades en Airbnb y Booking.com. Si prefiere reservar directamente, contacte a Pedro por teléfono (+351 927 970 151), WhatsApp o correo electrónico (geral@welkome-inn.com) y comprobará la disponibilidad y le enviará los detalles.',
+    faq_q7: 'Soy turista. ¿Cómo puedo reservar?',
+    faq_a7: 'Puede encontrar nuestros alojamientos en Airbnb y Booking.com. Si prefiere reservar directamente, contacte a Pedro por teléfono (+351 927 970 151), WhatsApp o correo (geral@welkome-inn.com) y le confirmará disponibilidad y todos los detalles.',
 
     /* ── CTA Final ────────────────────────────────────────── */
     cta_title: 'Su propiedad merece una gestión mejor.',
-    cta_sub:   'Obtenga una evaluación gratuita sin compromiso. Pedro visitará su propiedad, revisará su configuración actual y le dirá exactamente qué podemos mejorar.',
-    cta_btn:   'Obtener Su Evaluación Gratuita',
+    cta_sub:   'Solicite una visita gratuita y sin compromiso. Pedro viene, analiza su propiedad y le dice con claridad qué se puede mejorar.',
+    cta_btn:   'Pedir Evaluación Gratuita',
 
     /* ── Pie de página ────────────────────────────────────── */
     footer_address:       'Beco Três Castelos, Torre Verde · Portimão, Algarve',
@@ -869,7 +869,7 @@ window.translations = {
     footer_link_why:      'Por Qué Nosotros',
     footer_link_services: 'Servicios',
     footer_link_pricing:  'Precios',
-    footer_link_rentals:  'Alquileres',
+    footer_link_rentals:  'Alojamientos',
     footer_link_contact:  'Contacto',
     footer_link_faq:      'FAQ',
 
@@ -877,7 +877,7 @@ window.translations = {
     testimonials: [
       {
         stars: 5,
-        quote: '"Vivo en los Países Bajos y estaba harto de agencias que ignoraban mis llamadas. Con Pedro, envío un mensaje por WhatsApp y recibo respuesta en minutos. Se encarga de todo — registro SEF, tasa turística, limpieza — yo solo reviso los informes."',
+        quote: '"Vivo en los Países Bajos y estaba harto de agencias que nunca cogían el teléfono. Con Pedro, le mando un mensaje por WhatsApp y responde en minutos. Se ocupa de todo — registro SEF, tasa turística, limpieza — yo solo reviso los informes."',
         name:  'Pieter van D.',
         loc:   'Ámsterdam, Países Bajos',
         role:  'Propietario — 2 apartamentos',
@@ -885,7 +885,7 @@ window.translations = {
       },
       {
         stars: 5,
-        quote: '"Todo estaba impecable cuando llegamos. Pedro respondió en minutos cuando teníamos dudas sobre el aparcamiento. Toallas frescas, consejos de restaurantes locales en la guía — uno de los check-ins más fluidos que hemos tenido en Portugal."',
+        quote: '"Todo estaba impecable cuando llegamos. Pedro respondió en minutos cuando tuvimos dudas con el aparcamiento. Toallas limpias, sugerencias de restaurantes en la guía — una de las llegadas más cómodas que hemos tenido en Portugal."',
         name:  'Sarah M.',
         loc:   'Londres, Reino Unido',
         role:  'Huésped — Praia da Rocha',
@@ -893,15 +893,15 @@ window.translations = {
       },
       {
         stars: 5,
-        quote: '"Antes de WELKOMME-INN yo mismo gestionaba tres propiedades desde Lisboa. Ahora Pedro se encarga de los check-ins, la limpieza, el mantenimiento — incluso hizo nuevas fotos que mejoraron mis reservas. Yo solo reviso los informes mensuales."',
+        quote: '"Antes de WELKOMME-INN gestionaba tres propiedades yo solo desde Lisboa. Ahora Pedro lleva a los huéspedes, la limpieza y el mantenimiento — hasta hizo nuevas fotos que mejoraron mis reservas. Yo solo miro los informes mensuales."',
         name:  'Ricardo S.',
         loc:   'Lisboa, Portugal',
-        role:  'Propietario — 3 unidades',
+        role:  'Propietario — 3 alojamientos',
         color: '#4A6741'
       },
       {
         stars: 5,
-        quote: '"El apartamento era perfecto. Limpio, bien equipado y excelente ubicación cerca de Praia da Rocha. Se nota que alguien cuida realmente la propiedad — no es solo otro alquiler genérico sin apoyo local."',
+        quote: '"El apartamento era perfecto. Limpio, bien equipado y muy bien situado cerca de Praia da Rocha. Se nota que alguien cuida la propiedad de verdad — no es uno más de esos alquileres sin personalidad ni apoyo local."',
         name:  'Thomas & Lena K.',
         loc:   'Múnich, Alemania',
         role:  'Huéspedes — Portimão',
