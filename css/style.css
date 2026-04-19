@@ -642,6 +642,7 @@ ul    { list-style: none; }
   align-items: flex-end;
   justify-content: center;
   min-height: 480px;
+  padding-top: 40px;
 }
 .how-image img {
   width: 90%;
