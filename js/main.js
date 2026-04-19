@@ -131,40 +131,12 @@ document.addEventListener('DOMContentLoaded', () => {
   if (ratingBox) barsObserver.observe(ratingBox);
 
   /* ── TESTIMONIAL CAROUSEL ────────────────────────────────── */
-  const testimonials = [
-    {
-      stars: 5,
-      quote: '"I live in the Netherlands and was tired of agencies ignoring my calls. With Pedro, I message on WhatsApp and get a response in minutes. He handles everything — SEF registration, tourist tax, cleaning — I just check the reports."',
-      name: 'Pieter van D.',
-      loc: 'Amsterdam, Netherlands',
-      role: 'Property owner — 2 apartments',
-      color: '#2C5F7C'
-    },
-    {
-      stars: 5,
-      quote: '"Everything was spotless when we arrived. Pedro responded within minutes when we had questions about parking. Fresh towels, local restaurant tips in the guide — one of the smoothest check-ins we\'ve had in Portugal."',
-      name: 'Sarah M.',
-      loc: 'London, UK',
-      role: 'Guest — Praia da Rocha',
-      color: '#7C4E2C'
-    },
-    {
-      stars: 5,
-      quote: '"Before WELKOMME-INN I was managing three properties myself from Lisbon. Now Pedro handles guest check-ins, cleaning, maintenance — even had new photos taken that improved my bookings. I just check the monthly reports."',
-      name: 'Ricardo S.',
-      loc: 'Lisbon, Portugal',
-      role: 'Property owner — 3 units',
-      color: '#4A6741'
-    },
-    {
-      stars: 5,
-      quote: '"The apartment was perfect. Clean, well-equipped, and great location near Praia da Rocha. You can tell someone actually cares about the property — not just another generic rental with no local support."',
-      name: 'Thomas & Lena K.',
-      loc: 'Munich, Germany',
-      role: 'Guests — Portimão',
-      color: '#6B4A7C'
-    }
-  ];
+  function getTestimonials() {
+    const lang = localStorage.getItem('wi_lang') || 'en';
+    return window.translations?.[lang]?.testimonials
+        || window.translations?.en?.testimonials
+        || [];
+  }
 
   let currentIdx = 0;
   let autoAdvance;
@@ -187,7 +159,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function buildDots() {
     if (!dotsEl) return;
-    dotsEl.innerHTML = testimonials.map((_, i) =>
+    const items = getTestimonials();
+    dotsEl.innerHTML = items.map((_, i) =>
       `<span class="t-dot ${i === 0 ? 'active' : ''}" data-idx="${i}"></span>`
     ).join('');
     dotsEl.querySelectorAll('.t-dot').forEach(dot => {
@@ -196,20 +169,22 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function showTestimonial(idx, animated = true) {
-    const t = testimonials[idx];
+    const items = getTestimonials();
+    const item = items[idx];
+    if (!item) return;
     if (animated && quoteEl) {
       quoteEl.style.opacity = '0';
       quoteEl.style.transform = 'translateY(10px)';
     }
     setTimeout(() => {
-      if (starsEl)  starsEl.innerHTML     = renderStars(t.stars);
-      if (quoteEl)  quoteEl.textContent   = t.quote;
-      if (nameEl)   nameEl.textContent    = t.name;
-      if (locEl)    locEl.textContent     = t.loc;
-      if (roleEl)   roleEl.textContent    = t.role;
+      if (starsEl)  starsEl.innerHTML     = renderStars(item.stars);
+      if (quoteEl)  quoteEl.textContent   = item.quote;
+      if (nameEl)   nameEl.textContent    = item.name;
+      if (locEl)    locEl.textContent     = item.loc;
+      if (roleEl)   roleEl.textContent    = item.role;
       if (avatarEl) {
-        avatarEl.style.background = t.color;
-        avatarEl.textContent      = t.name.charAt(0);
+        avatarEl.style.background = item.color;
+        avatarEl.textContent      = item.name.charAt(0);
       }
       if (quoteEl) {
         quoteEl.style.transition = 'opacity 0.4s, transform 0.4s';
@@ -226,10 +201,10 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function nextTestimonial() {
-    showTestimonial((currentIdx + 1) % testimonials.length);
+    showTestimonial((currentIdx + 1) % getTestimonials().length);
   }
   function prevTestimonial() {
-    showTestimonial((currentIdx - 1 + testimonials.length) % testimonials.length);
+    showTestimonial((currentIdx - 1 + getTestimonials().length) % getTestimonials().length);
   }
 
   function resetAutoAdvance() {
@@ -239,6 +214,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
   document.getElementById('prevReview')?.addEventListener('click', prevTestimonial);
   document.getElementById('nextReview')?.addEventListener('click', nextTestimonial);
+
+  document.addEventListener('langchange', () => {
+    buildDots();
+    showTestimonial(0, false);
+  });
 
   buildDots();
   showTestimonial(0, false);

@@ -27,7 +27,7 @@
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "WELKOMME-INN",
-    "description": "Local property management for short-term rentals in Portimão, Algarve. Airbnb management, cleaning, maintenance, guest communication.",
+    "description": "Local property management for short-term rentals in Portimão, Algarve.",
     "url": "https://welkomme-inn.com",
     "telephone": "+351-927-970-151",
     "email": "geral@welkome-inn.com",
@@ -51,51 +51,63 @@
 <div id="scroll-progress"></div>
 
 <!-- BACK TO TOP -->
-<button id="back-to-top" aria-label="Back to top">
-  <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
-    <polyline points="18 15 12 9 6 15"/>
-  </svg>
-</button>
+<button id="back-to-top" data-i18n-aria="nav_why">Back to top</button>
 
 <!-- MOBILE OVERLAY -->
 <div id="mobileOverlay" class="mobile-overlay" style="display:none;"></div>
+
 
 <!-- ════════════════════════════════════════════════════════════
      HEADER
      ════════════════════════════════════════════════════════════ -->
 <header class="header" id="header">
   <div class="header-inner">
+
     <a href="#" class="logo">
       <span class="logo-icon">W</span>
       <span>WELKOMME-INN</span>
     </a>
 
     <nav class="nav-links" aria-label="Main navigation">
-      <a href="#about">Why Us</a>
-      <a href="#services">Services</a>
-      <a href="#how-it-works">How It Works</a>
-      <a href="#pricing">Pricing</a>
-      <a href="#properties">Rentals</a>
-      <a href="#contact">Contact</a>
+      <a href="#about"       data-i18n="nav_why">Why Us</a>
+      <a href="#services"    data-i18n="nav_services">Services</a>
+      <a href="#how-it-works"data-i18n="nav_how">How It Works</a>
+      <a href="#pricing"     data-i18n="nav_pricing">Pricing</a>
+      <a href="#properties"  data-i18n="nav_rentals">Rentals</a>
+      <a href="#contact"     data-i18n="nav_contact">Contact</a>
     </nav>
 
-    <a href="#contact" class="btn-primary">Free Assessment</a>
+    <!-- Language switcher -->
+    <div class="lang-switcher" role="group" aria-label="Language">
+      <button class="lang-btn active" data-lang="en" aria-pressed="true">EN</button>
+      <button class="lang-btn"        data-lang="pt" aria-pressed="false">PT</button>
+      <button class="lang-btn"        data-lang="es" aria-pressed="false">ES</button>
+    </div>
+
+    <a href="#contact" class="btn-primary" data-i18n="nav_cta">Free Assessment</a>
 
     <button class="hamburger" id="hamburger" aria-label="Open menu">
       <span></span><span></span><span></span>
     </button>
+
   </div>
 </header>
 
 <!-- MOBILE MENU -->
 <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation">
-  <a href="#about"        class="mobile-link">Why Us</a>
-  <a href="#services"     class="mobile-link">Services</a>
-  <a href="#how-it-works" class="mobile-link">How It Works</a>
-  <a href="#pricing"      class="mobile-link">Pricing</a>
-  <a href="#properties"   class="mobile-link">Rentals</a>
-  <a href="#contact"      class="mobile-link">Contact</a>
-  <a href="#contact"      class="btn-primary mobile-link">Free Assessment</a>
+  <a href="#about"        class="mobile-link" data-i18n="nav_why">Why Us</a>
+  <a href="#services"     class="mobile-link" data-i18n="nav_services">Services</a>
+  <a href="#how-it-works" class="mobile-link" data-i18n="nav_how">How It Works</a>
+  <a href="#pricing"      class="mobile-link" data-i18n="nav_pricing">Pricing</a>
+  <a href="#properties"   class="mobile-link" data-i18n="nav_rentals">Rentals</a>
+  <a href="#contact"      class="mobile-link" data-i18n="nav_contact">Contact</a>
+  <!-- Language switcher in mobile menu -->
+  <div class="lang-switcher lang-switcher--mobile" role="group" aria-label="Language">
+    <button class="lang-btn active" data-lang="en" aria-pressed="true">EN</button>
+    <button class="lang-btn"        data-lang="pt" aria-pressed="false">PT</button>
+    <button class="lang-btn"        data-lang="es" aria-pressed="false">ES</button>
+  </div>
+  <a href="#contact" class="btn-primary mobile-link" data-i18n="nav_cta">Free Assessment</a>
 </nav>
 
 
@@ -119,24 +131,21 @@
         <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
         <circle cx="12" cy="10" r="3"/>
       </svg>
-      Based in Portimão, Algarve
+      <span data-i18n="hero_badge">Based in Portimão, Algarve</span>
     </div>
 
-    <h1 class="hero-title">Property management that <em>actually works.</em></h1>
+    <h1 class="hero-title" data-i18n="hero_title">Property management that <em>actually works.</em></h1>
 
-    <p class="hero-subtitle">
-      Run by Pedro Almeida — a small, dedicated team managing Airbnb and short-term rentals
-      in Portimão. Direct communication. Fast action. Full accountability.
-    </p>
+    <p class="hero-subtitle" data-i18n="hero_subtitle">Run by Pedro Almeida — a small, dedicated team managing Airbnb and short-term rentals in Portimão. Direct communication. Fast action. Full accountability.</p>
 
     <div class="hero-ctas">
-      <a href="#contact"      class="btn-hero">Get a Free Assessment</a>
-      <a href="#how-it-works" class="btn-hero-outline">See How It Works</a>
+      <a href="#contact"      class="btn-hero"         data-i18n="hero_cta_primary">Get a Free Assessment</a>
+      <a href="#how-it-works" class="btn-hero-outline"  data-i18n="hero_cta_secondary">See How It Works</a>
     </div>
   </div>
 
   <div class="hero-scroll">
-    <span>Scroll</span>
+    <span data-i18n="hero_scroll">Scroll</span>
     <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
       <polyline points="6 9 12 15 18 9"/>
     </svg>
@@ -150,24 +159,32 @@
 <div class="stats-strip">
   <div class="container">
     <div class="stats-grid">
+
       <div class="stat-item">
         <div class="stat-num"><span data-count="50" data-suffix="+">50+</span></div>
-        <div class="stat-label">Properties managed</div>
+        <div class="stat-label" data-i18n="stats_properties_label">Properties managed</div>
       </div>
+
       <div class="stat-item">
         <div class="stat-num" style="display:flex;align-items:baseline;justify-content:center;gap:2px;">
-          <span data-count="49" data-suffix="">4.9</span><span style="font-size:22px;color:rgba(255,255,255,0.5);margin-left:2px;">★</span>
+          <span data-count="49" data-suffix="">4.9</span>
+          <span style="font-size:22px;color:rgba(255,255,255,0.5);margin-left:2px;">★</span>
         </div>
-        <div class="stat-label">Average guest rating</div>
+        <div class="stat-label" data-i18n="stats_rating_label">Average guest rating</div>
       </div>
+
       <div class="stat-item">
-        <div class="stat-num"><span data-count="3" data-suffix="">3</span>+ yrs</div>
-        <div class="stat-label">In Portimão</div>
+        <div class="stat-num">
+          <span data-count="3" data-suffix="">3</span><span data-i18n="stats_years_suffix">+ yrs</span>
+        </div>
+        <div class="stat-label" data-i18n="stats_years_label">In Portimão</div>
       </div>
+
       <div class="stat-item">
         <div class="stat-num">24/7</div>
-        <div class="stat-label">Guest support</div>
+        <div class="stat-label" data-i18n="stats_support_label">Guest support</div>
       </div>
+
     </div>
   </div>
 </div>
@@ -179,17 +196,10 @@
 <section class="about" id="about">
   <div class="container">
     <div class="reveal">
-      <p class="section-label">Why WELKOMME-INN</p>
-      <h2 class="section-heading">Your property, managed by people who actually show up</h2>
+      <p class="section-label"  data-i18n="about_label">Why WELKOMME-INN</p>
+      <h2 class="section-heading" data-i18n="about_heading">Your property, managed by people who actually show up</h2>
       <div class="about-intro">
-        <p class="highlight-text">
-          I'm Pedro Almeida. I run WELKOMME-INN with a small, dedicated team in Portimão.
-          We're not an agency with hundreds of properties and a call centre you can't reach.
-          <strong>You deal directly with me.</strong> When a guest has a problem at 11pm, I handle it.
-          When a pipe bursts, I'm there. We manage everything — from professional photography
-          and listing setup to cleaning, maintenance, SEF registration and tourist tax.
-          <strong>No middlemen. No delays. Just the work, done properly.</strong>
-        </p>
+        <p class="highlight-text" data-i18n="about_text">I'm Pedro Almeida. I run WELKOMME-INN with a small, dedicated team in Portimão. We're not an agency with hundreds of properties and a call centre you can't reach. <strong>You deal directly with me.</strong> When a guest has a problem at 11pm, I handle it. When a pipe bursts, I'm there. We manage everything — from professional photography and listing setup to cleaning, maintenance, SEF registration and tourist tax. <strong>No middlemen. No delays. Just the work, done properly.</strong></p>
       </div>
     </div>
 
@@ -202,7 +212,7 @@
     </div>
 
     <div class="show-photos reveal">
-      <a href="#properties" class="btn-secondary">Browse managed properties</a>
+      <a href="#properties" class="btn-secondary" data-i18n="about_cta">Browse managed properties</a>
     </div>
   </div>
 </section>
@@ -214,61 +224,62 @@
 <section class="services" id="services">
   <div class="container">
     <div class="reveal">
-      <p class="section-label">What we manage</p>
-      <h2 class="section-heading">Everything your rental needs, handled</h2>
+      <p  class="section-label"   data-i18n="services_label">What we manage</p>
+      <h2 class="section-heading" data-i18n="services_heading">Everything your rental needs, handled</h2>
     </div>
 
     <div class="services-cards">
 
-      <!-- Advertising -->
+      <!-- Card 1: Advertising & Bookings -->
       <div class="service-card reveal reveal-delay-1">
         <div class="service-card-icon">
           <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
         </div>
-        <h3>Advertising &amp; Bookings</h3>
+        <h3 data-i18n="services_card1_title">Advertising &amp; Bookings</h3>
         <div class="service-card-list">
-          <div class="service-card-item"><span class="sc-dot"></span>Airbnb &amp; Booking.com ads</div>
-          <div class="service-card-item"><span class="sc-dot"></span>Professional photography</div>
-          <div class="service-card-item"><span class="sc-dot"></span>Price optimisation</div>
-          <div class="service-card-item"><span class="sc-dot"></span>Interior consulting</div>
-          <div class="service-card-item"><span class="sc-dot"></span>Calendar &amp; booking management</div>
+          <div class="service-card-item"><span class="sc-dot"></span><span data-i18n="services_card1_i1">Airbnb &amp; Booking.com ads</span></div>
+          <div class="service-card-item"><span class="sc-dot"></span><span data-i18n="services_card1_i2">Professional photography</span></div>
+          <div class="service-card-item"><span class="sc-dot"></span><span data-i18n="services_card1_i3">Price optimisation</span></div>
+          <div class="service-card-item"><span class="sc-dot"></span><span data-i18n="services_card1_i4">Interior consulting</span></div>
+          <div class="service-card-item"><span class="sc-dot"></span><span data-i18n="services_card1_i5">Calendar &amp; booking management</span></div>
         </div>
       </div>
 
-      <!-- Property Management -->
+      <!-- Card 2: Property Management -->
       <div class="service-card reveal reveal-delay-2">
         <div class="service-card-icon">
           <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
         </div>
-        <h3>Property Management</h3>
+        <h3 data-i18n="services_card2_title">Property Management</h3>
         <div class="service-card-list">
-          <div class="service-card-item"><span class="sc-dot"></span>Professional cleaning</div>
-          <div class="service-card-item"><span class="sc-dot"></span>Linens, towels &amp; toiletries</div>
-          <div class="service-card-item"><span class="sc-dot"></span>Maintenance &amp; repairs</div>
-          <div class="service-card-item"><span class="sc-dot"></span>Property insurance support</div>
-          <div class="service-card-item"><span class="sc-dot"></span>Owner access area</div>
+          <div class="service-card-item"><span class="sc-dot"></span><span data-i18n="services_card2_i1">Professional cleaning</span></div>
+          <div class="service-card-item"><span class="sc-dot"></span><span data-i18n="services_card2_i2">Linens, towels &amp; toiletries</span></div>
+          <div class="service-card-item"><span class="sc-dot"></span><span data-i18n="services_card2_i3">Maintenance &amp; repairs</span></div>
+          <div class="service-card-item"><span class="sc-dot"></span><span data-i18n="services_card2_i4">Property insurance support</span></div>
+          <div class="service-card-item"><span class="sc-dot"></span><span data-i18n="services_card2_i5">Owner access area</span></div>
         </div>
       </div>
 
-      <!-- Guest Management -->
+      <!-- Card 3: Guest Management -->
       <div class="service-card reveal reveal-delay-3">
         <div class="service-card-icon">
           <svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
         </div>
-        <h3>Guest Management</h3>
+        <h3 data-i18n="services_card3_title">Guest Management</h3>
         <div class="service-card-list">
-          <div class="service-card-item"><span class="sc-dot"></span>Guest verification</div>
-          <div class="service-card-item"><span class="sc-dot"></span>Check-in &amp; check-out</div>
-          <div class="service-card-item"><span class="sc-dot"></span>SEF registration</div>
-          <div class="service-card-item"><span class="sc-dot"></span>Tourist tax handling</div>
-          <div class="service-card-item"><span class="sc-dot"></span>24/7 guest support</div>
-          <div class="service-card-item"><span class="sc-dot"></span>Personalised guest guides</div>
+          <div class="service-card-item"><span class="sc-dot"></span><span data-i18n="services_card3_i1">Guest verification</span></div>
+          <div class="service-card-item"><span class="sc-dot"></span><span data-i18n="services_card3_i2">Check-in &amp; check-out</span></div>
+          <div class="service-card-item"><span class="sc-dot"></span><span data-i18n="services_card3_i3">SEF registration</span></div>
+          <div class="service-card-item"><span class="sc-dot"></span><span data-i18n="services_card3_i4">Tourist tax handling</span></div>
+          <div class="service-card-item"><span class="sc-dot"></span><span data-i18n="services_card3_i5">24/7 guest support</span></div>
+          <div class="service-card-item"><span class="sc-dot"></span><span data-i18n="services_card3_i6">Personalised guest guides</span></div>
         </div>
       </div>
+
     </div>
 
     <div class="services-btn reveal">
-      <a href="#contact" class="btn-dark">Get a free property assessment</a>
+      <a href="#contact" class="btn-dark" data-i18n="services_cta">Get a free property assessment</a>
     </div>
   </div>
 </section>
@@ -280,9 +291,9 @@
 <section class="how-it-works" id="how-it-works">
   <div class="container">
     <div class="reveal">
-      <p class="section-label">How it works</p>
-      <h2 class="section-heading">From first call to first booking</h2>
-      <p class="section-sub">No lengthy contracts. No complicated setup. Pedro visits your property, assesses what's needed, and gets things running — usually within a week.</p>
+      <p  class="section-label"   data-i18n="how_label">How it works</p>
+      <h2 class="section-heading" data-i18n="how_heading">From first call to first booking</h2>
+      <p  class="section-sub"     data-i18n="how_sub">No lengthy contracts. No complicated setup. Pedro visits your property, assesses what's needed, and gets things running — usually within a week.</p>
     </div>
 
     <div class="how-grid reveal">
@@ -291,30 +302,34 @@
       </div>
 
       <div class="how-info">
-        <h3>Talk to Pedro. Get started fast.</h3>
-        <p>No complicated onboarding. Call or WhatsApp me, tell me about your property, and I'll come take a look. We agree on what you need and I get to work — usually within days.</p>
+        <h3 data-i18n="how_title">Talk to Pedro. Get started fast.</h3>
+        <p  data-i18n="how_desc">No complicated onboarding. Call or WhatsApp me, tell me about your property, and I'll come take a look. We agree on what you need and I get to work — usually within days.</p>
         <div class="how-steps">
+
           <div class="how-step">
             <div class="how-step-num">1</div>
             <div class="how-step-text">
-              <h4>Free property assessment</h4>
-              <p>I visit your property, check the condition, review your current listing setup, and discuss your goals.</p>
+              <h4 data-i18n="how_step1_title">Free property assessment</h4>
+              <p  data-i18n="how_step1_desc">I visit your property, check the condition, review your current listing setup, and discuss your goals.</p>
             </div>
           </div>
+
           <div class="how-step">
             <div class="how-step-num">2</div>
             <div class="how-step-text">
-              <h4>Custom management plan</h4>
-              <p>You get a clear proposal — which services you need, what it costs, and when we start. No hidden fees.</p>
+              <h4 data-i18n="how_step2_title">Custom management plan</h4>
+              <p  data-i18n="how_step2_desc">You get a clear proposal — which services you need, what it costs, and when we start. No hidden fees.</p>
             </div>
           </div>
+
           <div class="how-step">
             <div class="how-step-num">3</div>
             <div class="how-step-text">
-              <h4>Photography, listing, and go live</h4>
-              <p>We photograph the property, optimise or create your listings, set up cleaning schedules, and start accepting bookings.</p>
+              <h4 data-i18n="how_step3_title">Photography, listing, and go live</h4>
+              <p  data-i18n="how_step3_desc">We photograph the property, optimise or create your listings, set up cleaning schedules, and start accepting bookings.</p>
             </div>
           </div>
+
         </div>
       </div>
     </div>
@@ -328,9 +343,9 @@
 <section class="areas" id="areas">
   <div class="container">
     <div class="reveal">
-      <p class="section-label">Service area</p>
-      <h2 class="section-heading">Where we operate</h2>
-      <p class="section-sub">We operate exclusively in Portimão — keeping our area tight so Pedro can be on-site fast, every time.</p>
+      <p  class="section-label"   data-i18n="areas_label">Service area</p>
+      <h2 class="section-heading" data-i18n="areas_heading">Where we operate</h2>
+      <p  class="section-sub"     data-i18n="areas_sub">We operate exclusively in Portimão — keeping our area tight so Pedro can be on-site fast, every time.</p>
     </div>
 
     <div class="area-featured reveal">
@@ -343,39 +358,39 @@
               <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
               <circle cx="12" cy="10" r="3"/>
             </svg>
-            Portimão, Algarve · Portugal
+            <span data-i18n="areas_pin">Portimão, Algarve · Portugal</span>
           </div>
         </div>
 
         <div class="area-featured-body">
           <div class="area-featured-text">
-            <h4>Portimão</h4>
-            <p>Our home base and the only place we operate. City centre apartments, riverside rentals, beachfront properties at Praia da Rocha, and villas near Alvor — all within Portimão municipality, all within reach.</p>
+            <h4 data-i18n="areas_city">Portimão</h4>
+            <p  data-i18n="areas_desc">Our home base and the only place we operate. City centre apartments, riverside rentals, beachfront properties at Praia da Rocha, and villas near Alvor — all within Portimão municipality, all within reach.</p>
             <div class="area-tags">
               <span class="area-tag">
                 <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2"/></svg>
-                Portimão Centre
+                <span data-i18n="areas_tag1">Portimão Centre</span>
               </span>
               <span class="area-tag">
                 <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2"/></svg>
-                Praia da Rocha
+                <span data-i18n="areas_tag2">Praia da Rocha</span>
               </span>
               <span class="area-tag">
                 <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2"/></svg>
-                Alvor
+                <span data-i18n="areas_tag3">Alvor</span>
               </span>
             </div>
           </div>
 
           <div class="area-response-box">
             <div class="area-stat">
-              <div class="area-stat-num">~30m</div>
-              <div class="area-stat-label">On-site<br>response</div>
+              <div class="area-stat-num"   data-i18n="areas_stat1_num">~30m</div>
+              <div class="area-stat-label" data-i18n="areas_stat1_label">On-site response</div>
             </div>
             <div class="area-stat-divider"></div>
             <div class="area-stat">
-              <div class="area-stat-num">1</div>
-              <div class="area-stat-label">City.<br>Done well.</div>
+              <div class="area-stat-num"   data-i18n="areas_stat2_num">1</div>
+              <div class="area-stat-label" data-i18n="areas_stat2_label">City. Done well.</div>
             </div>
           </div>
         </div>
@@ -392,45 +407,58 @@
 <section class="pricing" id="pricing">
   <div class="container">
     <div class="reveal">
-      <p class="section-label">Management pricing</p>
-      <h2 class="section-heading">Honest pricing, no hidden fees</h2>
-      <p class="section-sub">You pay a percentage of your rental income. When your property earns, we earn. Pricing is tailored to your property — contact Pedro for a quote.</p>
+      <p  class="section-label"   data-i18n="pricing_label">Management pricing</p>
+      <h2 class="section-heading" data-i18n="pricing_heading">Honest pricing, no hidden fees</h2>
+      <p  class="section-sub"     data-i18n="pricing_sub">You pay a percentage of your rental income. When your property earns, we earn. Pricing is tailored to your property — contact Pedro for a quote.</p>
     </div>
 
     <div class="pricing-grid reveal">
 
       <!-- Essential -->
       <div class="pricing-box">
-        <div class="pricing-tier">Essential</div>
-        <div class="pricing-main"><span class="price">15%</span><span class="per">of rental income</span></div>
-        <p class="pricing-desc">For owners who manage their own bookings but need reliable local support on the ground.</p>
-        <div class="pricing-features">
-          <div class="pricing-feature"><span class="check">✓</span>Professional cleaning between guests</div>
-          <div class="pricing-feature"><span class="check">✓</span>Linens, towels &amp; toiletries</div>
-          <div class="pricing-feature"><span class="check">✓</span>Guest check-in &amp; check-out</div>
-          <div class="pricing-feature"><span class="check">✓</span>Key management</div>
-          <div class="pricing-feature"><span class="check">✓</span>Basic maintenance coordination</div>
-          <div class="pricing-feature"><span class="check">✓</span>SEF registration &amp; tourist tax</div>
+        <div class="pricing-tier"  data-i18n="pricing_tier1">Essential</div>
+        <div class="pricing-main">
+          <span class="price" data-i18n="pricing_price1">15%</span>
+          <span class="per"   data-i18n="pricing_per1">of rental income</span>
         </div>
-        <div class="pricing-cta"><a href="#contact" class="btn-secondary">Talk to Pedro</a></div>
+        <p class="pricing-desc" data-i18n="pricing_desc1">For owners who manage their own bookings but need reliable local support on the ground.</p>
+        <div class="pricing-features">
+          <div class="pricing-feature"><span class="check">✓</span><span data-i18n="pricing_f1_1">Professional cleaning between guests</span></div>
+          <div class="pricing-feature"><span class="check">✓</span><span data-i18n="pricing_f1_2">Linens, towels &amp; toiletries</span></div>
+          <div class="pricing-feature"><span class="check">✓</span><span data-i18n="pricing_f1_3">Guest check-in &amp; check-out</span></div>
+          <div class="pricing-feature"><span class="check">✓</span><span data-i18n="pricing_f1_4">Key management</span></div>
+          <div class="pricing-feature"><span class="check">✓</span><span data-i18n="pricing_f1_5">Basic maintenance coordination</span></div>
+          <div class="pricing-feature"><span class="check">✓</span><span data-i18n="pricing_f1_6">SEF registration &amp; tourist tax</span></div>
+        </div>
+        <div class="pricing-cta">
+          <a href="#contact" class="btn-secondary" data-i18n="pricing_cta1">Talk to Pedro</a>
+        </div>
       </div>
 
-      <!-- Full Management -->
+      <!-- Full Management (featured) -->
       <div class="pricing-box featured">
-        <div class="pricing-tier">Full management</div>
-        <div class="pricing-main"><span class="price">20%</span><span class="per">of rental income</span></div>
-        <p class="pricing-desc">Complete hands-off management. We handle everything from photography to guest checkout. You collect the income.</p>
-        <div class="pricing-features">
-          <div class="pricing-feature"><span class="check">✓</span>Everything in Essential</div>
-          <div class="pricing-feature"><span class="check">✓</span>Professional photography &amp; listing creation</div>
-          <div class="pricing-feature"><span class="check">✓</span>Interior consulting &amp; staging advice</div>
-          <div class="pricing-feature"><span class="check">✓</span>Dynamic pricing &amp; ad management</div>
-          <div class="pricing-feature"><span class="check">✓</span>Full guest communication (24/7)</div>
-          <div class="pricing-feature"><span class="check">✓</span>Guest verification &amp; personalised guides</div>
-          <div class="pricing-feature"><span class="check">✓</span>Maintenance, repairs &amp; insurance support</div>
-          <div class="pricing-feature"><span class="check">✓</span>Owner access area &amp; monthly reporting</div>
+        <!-- Badge replaces CSS ::before so it can be translated -->
+        <span class="pricing-popular-badge" data-i18n="pricing_popular">Most popular</span>
+
+        <div class="pricing-tier"  data-i18n="pricing_tier2">Full management</div>
+        <div class="pricing-main">
+          <span class="price" data-i18n="pricing_price2">20%</span>
+          <span class="per"   data-i18n="pricing_per2">of rental income</span>
         </div>
-        <div class="pricing-cta"><a href="#contact" class="btn-dark" style="width:100%;">Get a free assessment</a></div>
+        <p class="pricing-desc" data-i18n="pricing_desc2">Complete hands-off management. We handle everything from photography to guest checkout. You collect the income.</p>
+        <div class="pricing-features">
+          <div class="pricing-feature"><span class="check">✓</span><span data-i18n="pricing_f2_1">Everything in Essential</span></div>
+          <div class="pricing-feature"><span class="check">✓</span><span data-i18n="pricing_f2_2">Professional photography &amp; listing creation</span></div>
+          <div class="pricing-feature"><span class="check">✓</span><span data-i18n="pricing_f2_3">Interior consulting &amp; staging advice</span></div>
+          <div class="pricing-feature"><span class="check">✓</span><span data-i18n="pricing_f2_4">Dynamic pricing &amp; ad management</span></div>
+          <div class="pricing-feature"><span class="check">✓</span><span data-i18n="pricing_f2_5">Full guest communication (24/7)</span></div>
+          <div class="pricing-feature"><span class="check">✓</span><span data-i18n="pricing_f2_6">Guest verification &amp; personalised guides</span></div>
+          <div class="pricing-feature"><span class="check">✓</span><span data-i18n="pricing_f2_7">Maintenance, repairs &amp; insurance support</span></div>
+          <div class="pricing-feature"><span class="check">✓</span><span data-i18n="pricing_f2_8">Owner access area &amp; monthly reporting</span></div>
+        </div>
+        <div class="pricing-cta">
+          <a href="#contact" class="btn-dark" style="width:100%;" data-i18n="pricing_cta2">Get a free assessment</a>
+        </div>
       </div>
 
     </div>
@@ -444,56 +472,65 @@
 <section class="properties" id="properties">
   <div class="container">
     <div class="reveal">
-      <p class="section-label">Available rentals</p>
-      <h2 class="section-heading">Book a stay in Portimão</h2>
-      <p class="section-sub">Looking for a holiday rental in Portimão? All our properties are professionally managed, spotlessly clean, and locally supported. Contact Pedro for current availability.</p>
+      <p  class="section-label"   data-i18n="properties_label">Available rentals</p>
+      <h2 class="section-heading" data-i18n="properties_heading">Book a stay in Portimão</h2>
+      <p  class="section-sub"     data-i18n="properties_sub">Looking for a holiday rental in Portimão? All our properties are professionally managed, spotlessly clean, and locally supported. Contact Pedro for current availability.</p>
     </div>
 
     <div class="properties-grid reveal">
 
       <div class="property-card">
         <div class="property-card-img">
-          <span class="property-card-badge">Superhost</span>
+          <span class="property-card-badge" data-i18n="prop1_badge">Superhost</span>
           <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=600&q=80&auto=format" alt="Modern apartment in Portimão centre" loading="lazy">
         </div>
         <div class="property-card-body">
-          <div class="property-card-loc">Portimão Centre</div>
-          <h3 class="property-card-title">Modern 2-bed with river views</h3>
-          <div class="property-card-meta">2 bedrooms · 1 bath · 4 guests</div>
-          <div class="property-card-price">€85 <span>/ night</span></div>
+          <div class="property-card-loc"   data-i18n="prop1_loc">Portimão Centre</div>
+          <h3  class="property-card-title" data-i18n="prop1_title">Modern 2-bed with river views</h3>
+          <div class="property-card-meta"  data-i18n="prop1_meta">2 bedrooms · 1 bath · 4 guests</div>
+          <div class="property-card-price">
+            <span data-i18n="prop1_price">€85</span>
+            <span data-i18n="prop1_per"> / night</span>
+          </div>
         </div>
       </div>
 
       <div class="property-card">
         <div class="property-card-img">
-          <span class="property-card-badge">Top rated</span>
+          <span class="property-card-badge" data-i18n="prop2_badge">Top rated</span>
           <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=600&q=80&auto=format" alt="Beachfront studio near Praia da Rocha" loading="lazy">
         </div>
         <div class="property-card-body">
-          <div class="property-card-loc">Praia da Rocha</div>
-          <h3 class="property-card-title">Bright studio steps from the beach</h3>
-          <div class="property-card-meta">Studio · 1 bath · 2 guests</div>
-          <div class="property-card-price">€65 <span>/ night</span></div>
+          <div class="property-card-loc"   data-i18n="prop2_loc">Praia da Rocha</div>
+          <h3  class="property-card-title" data-i18n="prop2_title">Bright studio steps from the beach</h3>
+          <div class="property-card-meta"  data-i18n="prop2_meta">Studio · 1 bath · 2 guests</div>
+          <div class="property-card-price">
+            <span data-i18n="prop2_price">€65</span>
+            <span data-i18n="prop2_per"> / night</span>
+          </div>
         </div>
       </div>
 
       <div class="property-card">
         <div class="property-card-img">
-          <span class="property-card-badge">New listing</span>
+          <span class="property-card-badge" data-i18n="prop3_badge">New listing</span>
           <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=80&auto=format" alt="Family house with pool in Alvor" loading="lazy">
         </div>
         <div class="property-card-body">
-          <div class="property-card-loc">Alvor</div>
-          <h3 class="property-card-title">3-bed house with private pool</h3>
-          <div class="property-card-meta">3 bedrooms · 2 baths · 6 guests</div>
-          <div class="property-card-price">€145 <span>/ night</span></div>
+          <div class="property-card-loc"   data-i18n="prop3_loc">Alvor</div>
+          <h3  class="property-card-title" data-i18n="prop3_title">3-bed house with private pool</h3>
+          <div class="property-card-meta"  data-i18n="prop3_meta">3 bedrooms · 2 baths · 6 guests</div>
+          <div class="property-card-price">
+            <span data-i18n="prop3_price">€145</span>
+            <span data-i18n="prop3_per"> / night</span>
+          </div>
         </div>
       </div>
 
     </div>
 
     <div class="show-photos reveal" style="margin-top:40px;">
-      <a href="#contact" class="btn-secondary">Contact Pedro for availability</a>
+      <a href="#contact" class="btn-secondary" data-i18n="properties_cta">Contact Pedro for availability</a>
     </div>
   </div>
 </section>
@@ -505,9 +542,9 @@
 <section class="contact" id="contact">
   <div class="container">
     <div class="reveal">
-      <p class="section-label">Get in touch</p>
-      <h2 class="section-heading">Talk to Pedro directly</h2>
-      <p class="section-sub">Property owner or guest — you get the same fast response. No forms, no waiting. Just call, message, or email.</p>
+      <p  class="section-label"   data-i18n="contact_label">Get in touch</p>
+      <h2 class="section-heading" data-i18n="contact_heading">Talk to Pedro directly</h2>
+      <p  class="section-sub"     data-i18n="contact_sub">Property owner or guest — you get the same fast response. No forms, no waiting. Just call, message, or email.</p>
     </div>
 
     <div class="contact-layout reveal">
@@ -515,73 +552,82 @@
       <!-- Left: contact cards -->
       <div class="contact-info">
         <div class="contact-card">
-          <h4>Phone / WhatsApp</h4>
-          <p>Call or message Pedro directly. No call centre, no queue.</p>
+          <h4 data-i18n="contact_phone_title">Phone / WhatsApp</h4>
+          <p  data-i18n="contact_phone_desc">Call or message Pedro directly. No call centre, no queue.</p>
           <a href="tel:+351927970151" class="contact-value">+351 927 970 151</a>
         </div>
         <div class="contact-card">
-          <h4>Email</h4>
-          <p>For property enquiries, assessment requests, or guest questions.</p>
+          <h4 data-i18n="contact_email_title">Email</h4>
+          <p  data-i18n="contact_email_desc">For property enquiries, assessment requests, or guest questions.</p>
           <a href="mailto:geral@welkome-inn.com" class="contact-value">geral@welkome-inn.com</a>
         </div>
         <div class="contact-card">
-          <h4>Location</h4>
-          <p>Beco Três Castelos, Torre Verde</p>
-          <span class="contact-value">Portimão, Algarve · Portugal</span>
+          <h4 data-i18n="contact_loc_title">Location</h4>
+          <p  data-i18n="contact_loc_desc">Beco Três Castelos, Torre Verde</p>
+          <span class="contact-value" data-i18n="contact_loc_val">Portimão, Algarve · Portugal</span>
         </div>
       </div>
 
       <!-- Right: form -->
       <div class="contact-form-wrap">
         <div class="contact-form-inner">
-          <h3>Request a free assessment</h3>
-          <p>Tell us about your property and we'll be in touch within 24 hours.</p>
+          <h3 data-i18n="form_heading">Request a free assessment</h3>
+          <p  data-i18n="form_desc">Tell us about your property and we'll be in touch within 24 hours.</p>
 
           <form id="contactForm" novalidate>
+
             <div class="form-row">
               <div class="form-group" data-field="name">
-                <label for="fname">Full name *</label>
-                <input type="text" id="fname" name="name" placeholder="Your name" autocomplete="name">
+                <label for="fname" data-i18n="form_label_name">Full name *</label>
+                <input type="text" id="fname" name="name"
+                       data-i18n-placeholder="form_placeholder_name"
+                       placeholder="Your name" autocomplete="name">
                 <span class="error-msg"></span>
               </div>
               <div class="form-group" data-field="email">
-                <label for="femail">Email address *</label>
-                <input type="email" id="femail" name="email" placeholder="you@example.com" autocomplete="email">
+                <label for="femail" data-i18n="form_label_email">Email address *</label>
+                <input type="email" id="femail" name="email"
+                       data-i18n-placeholder="form_placeholder_email"
+                       placeholder="you@example.com" autocomplete="email">
                 <span class="error-msg"></span>
               </div>
             </div>
 
             <div class="form-row">
               <div class="form-group">
-                <label for="fphone">Phone / WhatsApp</label>
-                <input type="tel" id="fphone" name="phone" placeholder="+351 …" autocomplete="tel">
+                <label for="fphone" data-i18n="form_label_phone">Phone / WhatsApp</label>
+                <input type="tel" id="fphone" name="phone"
+                       data-i18n-placeholder="form_placeholder_phone"
+                       placeholder="+351 …" autocomplete="tel">
               </div>
               <div class="form-group">
-                <label for="ftype">I am a…</label>
+                <label for="ftype" data-i18n="form_label_type">I am a…</label>
                 <select id="ftype" name="type">
-                  <option value="">Select one</option>
-                  <option value="owner">Property owner</option>
-                  <option value="guest">Guest / tourist</option>
-                  <option value="other">Other</option>
+                  <option value=""        data-i18n="form_option_default">Select one</option>
+                  <option value="owner"   data-i18n="form_option_owner">Property owner</option>
+                  <option value="guest"   data-i18n="form_option_guest">Guest / tourist</option>
+                  <option value="other"   data-i18n="form_option_other">Other</option>
                 </select>
               </div>
             </div>
 
             <div class="form-group" data-field="message">
-              <label for="fmessage">Message *</label>
-              <textarea id="fmessage" name="message" placeholder="Tell us about your property or question…"></textarea>
+              <label for="fmessage" data-i18n="form_label_msg">Message *</label>
+              <textarea id="fmessage" name="message"
+                        data-i18n-placeholder="form_placeholder_msg"
+                        placeholder="Tell us about your property or question…"></textarea>
               <span class="error-msg"></span>
             </div>
 
-            <button type="submit" class="btn-dark form-submit">Send message</button>
+            <button type="submit" class="btn-dark form-submit" data-i18n="form_submit">Send message</button>
           </form>
         </div>
 
         <!-- Success state -->
         <div class="form-success">
           <div class="success-icon">✓</div>
-          <h4>Message sent!</h4>
-          <p>Pedro will be in touch within 24 hours. You can also reach him directly at <strong>+351 927 970 151</strong>.</p>
+          <h4 data-i18n="form_success_title">Message sent!</h4>
+          <p  data-i18n="form_success_desc">Pedro will be in touch within 24 hours. You can also reach him directly at <strong>+351 927 970 151</strong>.</p>
         </div>
       </div>
 
@@ -596,8 +642,8 @@
 <section class="reviews" id="reviews">
   <div class="container">
     <div class="reveal">
-      <p class="section-label">Reviews</p>
-      <h2 class="section-heading">What owners and guests say</h2>
+      <p  class="section-label"   data-i18n="reviews_label">Reviews</p>
+      <h2 class="section-heading" data-i18n="reviews_heading">What owners and guests say</h2>
     </div>
 
     <div class="reviews-content reveal">
@@ -610,27 +656,27 @@
           </svg>
           <span class="rating-num">4.9</span>
         </div>
-        <p class="rating-label" style="margin-bottom:24px;font-size:14px;color:var(--gray-500);">Based on Airbnb &amp; Booking.com reviews</p>
+        <p class="rating-label" style="margin-bottom:24px;font-size:14px;color:var(--gray-500);" data-i18n="reviews_source">Based on Airbnb &amp; Booking.com reviews</p>
         <div class="rating-bars">
           <div class="rating-bar-row">
-            <span class="rb-label">Communication</span>
+            <span class="rb-label" data-i18n="reviews_comm">Communication</span>
             <div class="rb-track"><div class="rb-fill" data-width="99%"></div></div>
             <span class="rb-num">5.0</span>
           </div>
           <div class="rating-bar-row">
-            <span class="rb-label">Cleanliness</span>
+            <span class="rb-label" data-i18n="reviews_clean">Cleanliness</span>
             <div class="rb-track"><div class="rb-fill" data-width="97%"></div></div>
             <span class="rb-num">4.9</span>
           </div>
           <div class="rating-bar-row">
-            <span class="rb-label">Reliability</span>
+            <span class="rb-label" data-i18n="reviews_rel">Reliability</span>
             <div class="rb-track"><div class="rb-fill" data-width="98%"></div></div>
             <span class="rb-num">4.9</span>
           </div>
         </div>
       </div>
 
-      <!-- Testimonial carousel -->
+      <!-- Testimonial carousel (populated by main.js) -->
       <div class="testimonial-card">
         <div class="testimonial-stars" id="testimonialStars"></div>
         <p class="testimonial-quote" id="testimonialQuote"></p>
@@ -666,19 +712,20 @@
 <section class="blog" id="blog">
   <div class="container">
     <div class="reveal">
-      <p class="section-label">Owner resources</p>
-      <h2 class="section-heading">Guides &amp; insights</h2>
+      <p  class="section-label"   data-i18n="blog_label">Owner resources</p>
+      <h2 class="section-heading" data-i18n="blog_heading">Guides &amp; insights</h2>
     </div>
 
     <div class="blog-grid reveal">
+
       <article class="blog-card">
         <div class="blog-card-img">
           <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80&auto=format" alt="Airbnb property in Algarve" loading="lazy">
         </div>
         <div class="blog-card-body">
-          <div class="blog-card-tag">Property Management</div>
-          <h3 class="blog-card-title">What to look for in a property manager in Portimão</h3>
-          <p class="blog-card-excerpt">From SEF compliance to cleaning standards — what separates good management from bad in the Algarve.</p>
+          <div class="blog-card-tag"     data-i18n="blog1_tag">Property Management</div>
+          <h3  class="blog-card-title"   data-i18n="blog1_title">What to look for in a property manager in Portimão</h3>
+          <p   class="blog-card-excerpt" data-i18n="blog1_excerpt">From SEF compliance to cleaning standards — what separates good management from bad in the Algarve.</p>
         </div>
       </article>
 
@@ -687,9 +734,9 @@
           <img src="https://images.unsplash.com/photo-1460317442991-0ec209397118?w=600&q=80&auto=format" alt="Rental property performance" loading="lazy">
         </div>
         <div class="blog-card-body">
-          <div class="blog-card-tag">Rental Income</div>
-          <h3 class="blog-card-title">What can your Portimão property actually earn?</h3>
-          <p class="blog-card-excerpt">Realistic rental income expectations based on location, property type, and seasonality.</p>
+          <div class="blog-card-tag"     data-i18n="blog2_tag">Rental Income</div>
+          <h3  class="blog-card-title"   data-i18n="blog2_title">What can your Portimão property actually earn?</h3>
+          <p   class="blog-card-excerpt" data-i18n="blog2_excerpt">Realistic rental income expectations based on location, property type, and seasonality.</p>
         </div>
       </article>
 
@@ -698,11 +745,12 @@
           <img src="https://images.unsplash.com/photo-1554995207-c18c203602cb?w=600&q=80&auto=format" alt="Algarve rental regulations" loading="lazy">
         </div>
         <div class="blog-card-body">
-          <div class="blog-card-tag">Regulations</div>
-          <h3 class="blog-card-title">AL licence in Portugal: what owners need to know</h3>
-          <p class="blog-card-excerpt">A practical guide to short-term rental licensing requirements in the Algarve.</p>
+          <div class="blog-card-tag"     data-i18n="blog3_tag">Regulations</div>
+          <h3  class="blog-card-title"   data-i18n="blog3_title">AL licence in Portugal: what owners need to know</h3>
+          <p   class="blog-card-excerpt" data-i18n="blog3_excerpt">A practical guide to short-term rental licensing requirements in the Algarve.</p>
         </div>
       </article>
+
     </div>
   </div>
 </section>
@@ -714,45 +762,45 @@
 <section class="faq" id="faq">
   <div class="container">
     <div class="reveal">
-      <p class="section-label">FAQ</p>
-      <h2 class="section-heading">Common questions</h2>
+      <p  class="section-label"   data-i18n="faq_label">FAQ</p>
+      <h2 class="section-heading" data-i18n="faq_heading">Common questions</h2>
     </div>
 
     <div class="faq-list reveal">
 
       <div class="faq-item">
-        <button class="faq-question"><span class="faq-icon">+</span>How is WELKOMME-INN different from a large management agency?</button>
-        <div class="faq-answer"><div class="faq-answer-inner">We're a small team — Pedro Almeida runs the operation directly, supported by a marketing manager. That means you talk to the person who actually manages your property. No account managers, no rotating staff, no lost messages. We take on fewer properties and give each one more attention than a large agency ever could.</div></div>
+        <button class="faq-question"><span class="faq-icon">+</span><span data-i18n="faq_q1">How is WELKOMME-INN different from a large management agency?</span></button>
+        <div class="faq-answer"><div class="faq-answer-inner" data-i18n="faq_a1">We're a small team — Pedro Almeida runs the operation directly, supported by a marketing manager. That means you talk to the person who actually manages your property. No account managers, no rotating staff, no lost messages. We take on fewer properties and give each one more attention than a large agency ever could.</div></div>
       </div>
 
       <div class="faq-item">
-        <button class="faq-question"><span class="faq-icon">+</span>I live abroad. Can you manage my property remotely?</button>
-        <div class="faq-answer"><div class="faq-answer-inner">Yes — many of our clients live in the UK, Netherlands, Germany, or elsewhere in Portugal. Pedro handles everything on the ground: guest arrivals, cleaning, emergency repairs, inspections. You get regular updates and can reach us anytime on WhatsApp, phone, or email.</div></div>
+        <button class="faq-question"><span class="faq-icon">+</span><span data-i18n="faq_q2">I live abroad. Can you manage my property remotely?</span></button>
+        <div class="faq-answer"><div class="faq-answer-inner" data-i18n="faq_a2">Yes — many of our clients live in the UK, Netherlands, Germany, or elsewhere in Portugal. Pedro handles everything on the ground: guest arrivals, cleaning, emergency repairs, inspections. You get regular updates and can reach us anytime on WhatsApp, phone, or email.</div></div>
       </div>
 
       <div class="faq-item">
-        <button class="faq-question"><span class="faq-icon">+</span>Do you handle SEF registration and tourist tax?</button>
-        <div class="faq-answer"><div class="faq-answer-inner">Yes. We handle SEF communication (mandatory guest registration with Portuguese immigration), tourist tax collection and payment, and other legal requirements for short-term rentals. This is included in our service — you don't need to worry about compliance.</div></div>
+        <button class="faq-question"><span class="faq-icon">+</span><span data-i18n="faq_q3">Do you handle SEF registration and tourist tax?</span></button>
+        <div class="faq-answer"><div class="faq-answer-inner" data-i18n="faq_a3">Yes. We handle SEF communication (mandatory guest registration with Portuguese immigration), tourist tax collection and payment, and other legal requirements for short-term rentals. This is included in our service — you don't need to worry about compliance.</div></div>
       </div>
 
       <div class="faq-item">
-        <button class="faq-question"><span class="faq-icon">+</span>Is there a minimum contract period?</button>
-        <div class="faq-answer"><div class="faq-answer-inner">No long-term lock-in. We offer flexible agreements with a 30-day notice period. If you're not satisfied, you can leave. The work should speak for itself — not a contract clause.</div></div>
+        <button class="faq-question"><span class="faq-icon">+</span><span data-i18n="faq_q4">Is there a minimum contract period?</span></button>
+        <div class="faq-answer"><div class="faq-answer-inner" data-i18n="faq_a4">No long-term lock-in. We offer flexible agreements with a 30-day notice period. If you're not satisfied, you can leave. The work should speak for itself — not a contract clause.</div></div>
       </div>
 
       <div class="faq-item">
-        <button class="faq-question"><span class="faq-icon">+</span>What areas do you cover?</button>
-        <div class="faq-answer"><div class="faq-answer-inner">We're based in Portimão (Beco Três Castelos, Torre Verde) and primarily cover Portimão centre, Praia da Rocha, and Alvor. We keep the area tight so Pedro can respond quickly — usually within 30 minutes — instead of spreading across the whole Algarve.</div></div>
+        <button class="faq-question"><span class="faq-icon">+</span><span data-i18n="faq_q5">What areas do you cover?</span></button>
+        <div class="faq-answer"><div class="faq-answer-inner" data-i18n="faq_a5">We're based in Portimão (Beco Três Castelos, Torre Verde) and primarily cover Portimão centre, Praia da Rocha, and Alvor. We keep the area tight so Pedro can respond quickly — usually within 30 minutes — instead of spreading across the whole Algarve.</div></div>
       </div>
 
       <div class="faq-item">
-        <button class="faq-question"><span class="faq-icon">+</span>What's included in cleaning and turnover?</button>
-        <div class="faq-answer"><div class="faq-answer-inner">Professional cleaning between every guest stay, fresh linens and towels, replenished toiletries, and a quality inspection before the next guest arrives. We also handle laundry management. Everything is done to a consistent standard — not rushed between bookings.</div></div>
+        <button class="faq-question"><span class="faq-icon">+</span><span data-i18n="faq_q6">What's included in cleaning and turnover?</span></button>
+        <div class="faq-answer"><div class="faq-answer-inner" data-i18n="faq_a6">Professional cleaning between every guest stay, fresh linens and towels, replenished toiletries, and a quality inspection before the next guest arrives. We also handle laundry management. Everything is done to a consistent standard — not rushed between bookings.</div></div>
       </div>
 
       <div class="faq-item">
-        <button class="faq-question"><span class="faq-icon">+</span>I'm a tourist. How do I book a stay?</button>
-        <div class="faq-answer"><div class="faq-answer-inner">You can find our properties on Airbnb and Booking.com. If you prefer to book directly, contact Pedro by phone (+351 927 970 151), WhatsApp, or email (geral@welkome-inn.com) and he'll check availability and send you the details.</div></div>
+        <button class="faq-question"><span class="faq-icon">+</span><span data-i18n="faq_q7">I'm a tourist. How do I book a stay?</span></button>
+        <div class="faq-answer"><div class="faq-answer-inner" data-i18n="faq_a7">You can find our properties on Airbnb and Booking.com. If you prefer to book directly, contact Pedro by phone (+351 927 970 151), WhatsApp, or email (geral@welkome-inn.com) and he'll check availability and send you the details.</div></div>
       </div>
 
     </div>
@@ -768,9 +816,9 @@
   <div class="final-cta-overlay"></div>
   <div class="final-cta-gradient"></div>
   <div class="final-cta-content">
-    <h2 class="final-cta-title">Your property deserves better management.</h2>
-    <p class="final-cta-sub">Get a free, no-obligation property assessment. Pedro will visit, review your setup, and tell you exactly what we can improve.</p>
-    <a href="#contact" class="btn-hero">Get Your Free Assessment</a>
+    <h2 class="final-cta-title" data-i18n="cta_title">Your property deserves better management.</h2>
+    <p  class="final-cta-sub"   data-i18n="cta_sub">Get a free, no-obligation property assessment. Pedro will visit, review your setup, and tell you exactly what we can improve.</p>
+    <a href="#contact" class="btn-hero" data-i18n="cta_btn">Get Your Free Assessment</a>
   </div>
 </section>
 
@@ -780,9 +828,9 @@
      ════════════════════════════════════════════════════════════ -->
 <footer class="footer">
   <div class="footer-brand">WELKOMME-INN</div>
-  <p class="footer-copy">Beco Três Castelos, Torre Verde · Portimão, Algarve</p>
-  <p class="footer-sub">+351 927 970 151 · geral@welkome-inn.com</p>
-  <p class="footer-sub">© 2026 WELKOMME-INN. All rights reserved.</p>
+  <p class="footer-copy" data-i18n="footer_address">Beco Três Castelos, Torre Verde · Portimão, Algarve</p>
+  <p class="footer-sub"  data-i18n="footer_contact_info">+351 927 970 151 · geral@welkome-inn.com</p>
+  <p class="footer-sub"  data-i18n="footer_copy">© 2026 WELKOMME-INN. All rights reserved.</p>
 
   <div class="footer-social">
     <a href="#" aria-label="Instagram">
@@ -797,21 +845,29 @@
   </div>
 
   <div class="footer-links">
-    <a href="#about">Why Us</a>
-    <a href="#services">Services</a>
-    <a href="#pricing">Pricing</a>
-    <a href="#properties">Rentals</a>
-    <a href="#contact">Contact</a>
-    <a href="#faq">FAQ</a>
+    <a href="#about"       data-i18n="footer_link_why">Why Us</a>
+    <a href="#services"    data-i18n="footer_link_services">Services</a>
+    <a href="#pricing"     data-i18n="footer_link_pricing">Pricing</a>
+    <a href="#properties"  data-i18n="footer_link_rentals">Rentals</a>
+    <a href="#contact"     data-i18n="footer_link_contact">Contact</a>
+    <a href="#faq"         data-i18n="footer_link_faq">FAQ</a>
   </div>
 </footer>
 
 
-<!-- GSAP + ScrollTrigger -->
+<!-- ════════════════════════════════════════════════════════════
+     SCRIPTS  (order matters)
+     1. translations.js  →  defines window.translations
+     2. i18n.js          →  reads translations, exposes window.i18n
+     3. GSAP + ScrollTrigger
+     4. main.js          →  interactions, carousel, form
+     ════════════════════════════════════════════════════════════ -->
+<script src="js/translations.js"></script>
+<script src="js/i18n.js"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 
-<!-- Main JS -->
 <script src="js/main.js"></script>
 </body>
 </html>
